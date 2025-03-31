@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steeply</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navigation Menu (will be inserted by components.js) -->
+    <nav class="navbar">
+        <!-- Header content will be inserted here -->
+    </nav>
+
+    <!-- Page Title Section -->
+    <section class="page-title">
+        <div class="container">
+            <p><i>A tea steeping guide. Search your teas in our database to find a guide on how to brew it.</i></p>
+            <p><i>If you are looking for advices on how to brew your tea, please look at our <a href="brewing-guide.html">Brewing Guide</a></i></p>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="filters">
+            <!-- Simplified filter layout -->
+            <div class="filter-container">
+                <div class="filter-section">
+                    <div class="search-row">
+                        <input type="text" id="tea-search" placeholder="Search name, description, flavor...">
+                        <div class="filter-group">
+                            <select id="category">
+                                <option value="">All Categories</option>
+                                <!-- Categories will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <button id="search-button">Search</button>
+                    </div>
+                    <div class="filter-row">
+                        <div class="filter-group" id="tea-type-container" style="display: none;">
+                            <select id="tea-type">
+                                <option value="">All Types</option>
+                                <!-- Tea types will be populated by JavaScript -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hidden elements for backward compatibility -->
+            <div style="display: none;">
+                <select id="filter-type">
+                    <option value="category">Category</option>
+                    <option value="region">Region</option>
+                </select>
+                <div id="category-filter"></div>
+                <div id="region-filter">
+                    <select id="region">
+                        <option value="">All Regions</option>
+                        <!-- Regions will be populated by JavaScript -->
+                    </select>
+                </div>
+                <!-- Hidden for backward compatibility including brewing method -->
+                <select id="brewing-method" style="display: none;">
+                    <option value="gongfu">Gong Fu Cha</option>
+                    <option value="western">Western Style</option>
+                </select>
+                <select id="measurement-unit" style="display: none;">
+                    <option value="grams">Grams</option>
+                    <option value="teaspoons">Teaspoons</option>
+                </select>
+                <select id="water-unit" style="display: none;">
+                    <option value="ml">Milliliters</option>
+                    <option value="oz">Fluid Ounces</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="tea-results">
+            <div class="no-results">
+                <p>Select a tea category or search to begin exploring.</p>
+            </div>
+            <!-- Tea cards will be populated here by JavaScript -->
+        </section>
+    </main>
+
+    <!-- Footer (will be inserted by components.js) -->
+    <footer>
+        <!-- Footer content will be inserted here -->
+    </footer>
+
+    <div id="tea-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-content">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript files -->
+    <script src="components.js"></script>
+    <script src="tea-database.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

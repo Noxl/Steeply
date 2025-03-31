@@ -1,0 +1,1477 @@
+/* ======= VARIABLES ======= */
+:root {
+    /* Professional desaturated color palette with muted red accents */
+    --primary-color: #8a3033;        /* Desaturated red - main color */
+    --primary-dark: #622224;         /* Darker desaturated red for hover states */
+    --primary-light: #a95053;        /* Lighter accent */
+    --secondary-color: #7a6c56;      /* Warm taupe - complementary neutral */
+    --accent-color: #516d80;         /* Muted blue-gray for contrast */
+    --text-color: #333333;           /* Dark gray for better readability */
+    --text-light: #666666;           /* Medium gray for secondary text */
+    --light-color: #f9f7f7;          /* Very light gray with barely noticeable warmth */
+    --light-accent: #f3ecea;         /* Light warm gray with slight red undertone */
+    --dark-color: #2a2a2a;           /* Almost black */
+    --border-color: #e0d8d8;         /* Subtle light gray border */
+    --background-color: #f3f2f0;     /* Off-white background */
+    
+    /* Tea Category Colors - more professional muted palette */
+    --white-tea: #dbd3c1;            /* Muted cream */
+    --green-tea: #7d9962;            /* Desaturated sage green */
+    --oolong-tea: #bd9466;           /* Muted amber */
+    --black-tea: #5e4039;            /* Muted brown */
+    --puer-tea: #53433a;             /* Dark taupe */
+    --dark-tea: #3e352f;             /* Deep brown-gray */
+    --yellow-tea: #c1a85c;           /* Muted gold */
+    --herbal-tea: #7e9c82;           /* Muted sage */
+    --scented-tea: #c19e8e;          /* Muted rose */
+    --blended-tea: #8a6676;          /* Muted berry */
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 0.8rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-xxl: 3rem;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 6px;
+    --radius-lg: 8px;
+    --radius-round: 24px;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ======= RESET & BASE STYLES ======= */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+  }
+  
+  /* ======= LAYOUT ======= */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+  }
+  
+  /* ======= TYPOGRAPHY ======= */
+  h1, h2, h3, h4 {
+    font-family: 'Amandine', serif;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.3;
+    color: var(--text-color);
+  }
+  
+  h1 { 
+    font-size: 2.4rem; 
+    letter-spacing: 0.5px;
+  }
+  
+  h2 { 
+    font-size: 1.8rem; 
+    font-weight: 400;
+  }
+  
+  h3 { 
+    font-size: 1.5rem; 
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  p { 
+    margin-bottom: var(--spacing-md);
+    color: var(--text-color);
+  }
+
+  a {
+    font-family: 'Amandine', serif;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--primary-dark);
+  }
+  
+  /* ======= TOP NAVIGATION ======= */
+  .navbar {
+    background-color: white;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem var(--spacing-lg);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .logo h1 {
+    font-size: 1.4rem;
+    margin: 0;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .logo i {
+    font-size: 1.6rem;
+    margin-right: var(--spacing-sm);
+    color: var(--primary-color);
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: var(--spacing-lg);
+    position: relative;
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: block;
+    transition: all 0.2s;
+    position: relative;
+  }
+  
+  .nav-link:hover {
+    color: var(--primary-color);
+  }
+  
+  .nav-link.active {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color);
+    border-radius: var(--radius-sm);
+  }
+  
+  .nav-link:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-light);
+    opacity: 0.6;
+    border-radius: var(--radius-sm);
+  }
+  
+  /* Mobile Menu Toggle */
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+  }
+  
+  /* Page Title Section */
+  .page-title {
+    background-color: white;
+    padding: var(--spacing-xl) 0;
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .page-title h2 {
+    margin: 0;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .page-title p {
+    max-width: 750px;
+    margin: 0.8rem auto 0;
+    color: var(--text-light);
+    font-size: 1.1rem;
+  }
+  
+  /* ======= FILTER SECTION ======= */
+  .filters {
+    background-color: white;
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+  }
+  
+  .filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+  }
+  
+  .filter-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  /* Search and filter controls */
+  .search-row {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+  }
+  
+  #tea-search {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .search-row .filter-group {
+    width: auto;
+    min-width: 150px;
+  }
+  
+  .filter-row {
+    display: flex;
+    gap: var(--spacing-xs);
+    align-items: center;
+    margin-top: var(--spacing-xs);
+  }
+  
+  .filter-group {
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  /* ======= FORM ELEMENTS ======= */
+  select, input {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    background-color: var(--light-color);
+    transition: all 0.2s;
+    color: var(--text-color);
+  }
+  
+  select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%238a3033' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+    padding-right: 40px;
+  }
+  
+  select:hover, input:hover {
+    border-color: var(--primary-light);
+  }
+  
+  select:focus, input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(138, 48, 51, 0.1);
+  }
+  
+  #tea-search {
+    flex: 1;
+    min-width: 200px;
+    padding-left: 40px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%238a3033' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 14px center;
+    background-size: 16px;
+  }
+  
+  #search-button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+    white-space: nowrap;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #search-button:hover {
+    background-color: var(--primary-dark);
+    transform: translateY(-1px);
+  }
+  
+  #search-button:active {
+    transform: translateY(1px);
+  }
+  
+  /* ======= TEA RESULTS GRID ======= */
+  #tea-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xxl);
+  }
+  
+  /* No results message */
+  .no-results {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: var(--spacing-xl);
+    background-color: white;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+    color: var(--text-light);
+  }
+  
+  /* ======= ANIMATIONS ======= */
+  @keyframes cardAppear {
+    0% {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes cardClick {
+    0% { transform: scale(1); }
+    40% { transform: scale(0.97); }
+    100% { transform: scale(1); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes highlightPulse {
+    0% { background-color: rgba(138, 48, 51, 0.08); }
+    100% { background-color: rgba(138, 48, 51, 0.12); }
+  }
+  
+  /* ======= TEA CARDS ======= */
+  .tea-card {
+    background-color: white;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    
+    /* Animation properties */
+    opacity: 0;
+    animation-name: cardAppear;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: calc(0.03s * var(--card-index, 0));
+  }
+  
+  .tea-card:nth-child(n+15) {
+    animation-delay: 0.45s;
+  }
+  
+  .tea-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-light);
+  }
+  
+  .tea-card.clicked {
+    animation: cardClick 0.5s forwards;
+  }
+  
+  .tea-image {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--light-accent);
+    position: relative;
+  }
+  
+  .tea-category-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    padding: 5px 10px;
+    border-radius: var(--radius-round);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+    letter-spacing: 0.5px;
+  }
+  
+  .tea-content {
+    padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .tea-content h3 {
+    order: 1;
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.15rem;
+    color: var(--primary-color);
+  }
+  
+  .tea-description {
+    order: 2;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing-md);
+    color: var(--text-color);
+  }
+  
+  .tea-region {
+    order: 3;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-md);
+    display: flex;
+    align-items: center;
+  }
+  
+  .region-flag {
+    font-size: 1.5rem;
+    margin-right: 8px;
+  }
+  
+  .flavor-profile {
+    order: 4;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-light);
+    margin-bottom: var(--spacing-md);
+    line-height: 1.4;
+    padding-left: var(--spacing-sm);
+    border-left: 2px solid var(--primary-light);
+  }
+  
+  /* Card brewing methods section */
+  .card-brewing-methods {
+    order: 5;
+    background-color: var(--light-color);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-md);
+    display: flex;
+    gap: var(--spacing-sm);
+  }
+  
+  .brewing-preview {
+    flex: 1;
+    min-width: 0;
+    padding: var(--spacing-sm);
+    border-left: 3px solid;
+    border-radius: var(--radius-sm);
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  .brewing-preview.gongfu {
+    background-color: rgba(122, 108, 86, 0.1);
+    border-left-color: var(--secondary-color);
+  }
+  
+  .brewing-preview.western {
+    background-color: rgba(138, 48, 51, 0.08);
+    border-left-color: var(--primary-color);
+  }
+  
+  .brewing-highlight {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .brewing-preview span:not(.brewing-highlight) {
+    display: block;
+    white-space: pre-line;
+    line-height: 1.6;
+  }
+  
+  .view-details {
+    order: 6;
+    margin-top: auto;
+    align-self: center;
+    padding: 8px 16px;
+    font-size: 0.85rem;
+    color: white;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    border-radius: var(--radius-md);
+    transition: all 0.2s;
+    text-align: center;
+  }
+  
+  .tea-card:hover .view-details {
+    background-color: var(--primary-dark);
+  }
+  
+  /* Animation for no-results message */
+  .no-results {
+    animation: fadeIn 0.4s ease forwards;
+  }
+  
+  /* Highlight search matches */
+  .highlight-match {
+    background-color: rgba(138, 48, 51, 0.08);
+    padding: 0 3px;
+    border-radius: 3px;
+    animation: highlightPulse 2s infinite alternate;
+    font-weight: 500;
+  }
+  
+  /* ======= TEA CATEGORY COLORS - with more professional colors ======= */
+  .White-Tea { background-color: var(--white-tea); color: var(--text-color); }
+  .Green-Tea { background-color: var(--green-tea); color: white; }
+  .Oolong-Tea { background-color: var(--oolong-tea); color: white; }
+  .Black-Tea { background-color: var(--black-tea); color: white; }
+  .Puer { background-color: var(--puer-tea); color: white; }
+  .Dark-Tea { background-color: var(--dark-tea); color: white; }
+  .Yellow-Tea { background-color: var(--yellow-tea); color: var(--text-color); }
+  .Herbal { background-color: var(--herbal-tea); color: white; }
+  .Scented { background-color: var(--scented-tea); color: var(--text-color); }
+  .Blended { background-color: var(--blended-tea); color: white; }
+  
+  /* ======= MODAL ======= */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    backdrop-filter: blur(3px);
+  }
+  
+  .modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-md);
+    width: 90%;
+    max-width: 750px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    transform-origin: center;
+    animation: modalOpen 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: var(--shadow-lg);
+    border: 1px solid var(--border-color);
+  }
+  
+  @keyframes modalOpen {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  
+  .close-button {
+    position: absolute;
+    top: var(--spacing-md);
+    right: var(--spacing-lg);
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--primary-color);
+    transition: all 0.2s;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  
+  .close-button:hover {
+    background-color: rgba(138, 48, 51, 0.1);
+    transform: rotate(90deg);
+  }
+  
+  /* Modal tea details */
+  .tea-detail-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .tea-detail-image {
+    width: 170px;
+    height: 170px;
+    border-radius: var(--radius-md);
+    background-size: cover;
+    background-position: center;
+    margin-right: var(--spacing-lg);
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+    border: 4px solid white;
+    outline: 1px solid var(--border-color);
+  }
+  
+  .tea-detail-title h2 {
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary-color);
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  
+  .tea-detail-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: var(--spacing-md) 0;
+    color: var(--text-color);
+  }
+  
+  /* Metadata layout in modal */
+  .tea-metadata {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: var(--spacing-md);
+  }
+  
+  .tea-metadata-left {
+    flex: 0 1 auto;
+  }
+  
+  .tea-metadata-right {
+    flex: 1 1 auto;
+    max-width: 70%;
+  }
+  
+  .tea-detail-category, .tea-detail-region {
+    margin-top: var(--spacing-xs);
+  }
+  
+  .tea-detail-category {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: var(--radius-round);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: var(--spacing-xs);
+    letter-spacing: 0.5px;
+  }
+  
+  .tea-detail-region {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-top: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+  }
+  
+  .tea-detail-region:before {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-light);
+    margin-right: 8px;
+  }
+  
+  .tea-detail-flavor {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    font-style: italic;
+    color: var(--text-light);
+    padding-left: var(--spacing-md);
+    border-left: 3px solid var(--primary-light);
+  }
+  
+  .flavor-label {
+    font-weight: 600;
+    font-style: normal;
+    color: var(--text-color);
+  }
+  
+  /* Tea info section */
+  .tea-info-section {
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .tea-info-section h3 {
+    border-bottom: 2px solid var(--primary-light);
+    padding-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-lg);
+    color: var(--primary-color);
+  }
+  
+  .tea-info-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .tea-info-item {
+    flex: 1;
+    background-color: var(--light-color);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    min-width: 0;
+    box-shadow: var(--shadow-sm);
+    transition: all 0.2s;
+    border: 1px solid var(--border-color);
+  }
+  
+  .tea-info-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-light);
+  }
+  
+  .tea-info-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-sm);
+    white-space: nowrap;
+    color: var(--primary-color);
+  }
+  
+  .tea-info-value {
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Steeping instructions */
+  .steeping-instructions-container {
+    position: relative;
+  }
+  
+  .steeping-instructions {
+    display: none;
+    background-color: var(--light-color);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border-color);
+  }
+  
+  .steeping-instructions.active {
+    display: block;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .steeping-table {
+    overflow-x: auto;
+    margin-top: var(--spacing-md);
+  }
+  
+  .steeping-table table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+  }
+  
+  .steeping-table th, .steeping-table td {
+    padding: var(--spacing-sm);
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .steeping-table th {
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .steeping-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .steeping-table tr:nth-child(even) {
+    background-color: rgba(138, 48, 51, 0.03);
+  }
+  
+  .steeping-table tr:hover {
+    background-color: rgba(138, 48, 51, 0.06);
+  }
+  
+  .steeping-note {
+    margin-top: var(--spacing-md);
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-light);
+    padding: var(--spacing-md);
+    background-color: rgba(122, 108, 86, 0.1);
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--secondary-color);
+  }
+  
+  /* Brewing controls container */
+.brewing-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: var(--spacing-xl);
+    background-color: var(--light-color);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  /* Toggle container row - keeps toggles on same line, one left and one right */
+  .toggle-container-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .brewing-toggle-container {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .brewing-toggle {
+    position: relative;
+    width: 100%;
+  }
+  
+  .brewing-toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .brewing-toggle label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 44px;
+    background-color: var(--light-accent);
+    border-radius: 22px;
+    padding: 0 5px;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid var(--border-color);
+  }
+  
+  .toggle-option {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-light);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+  }
+  
+  .toggle-option.active {
+    opacity: 1;
+    color: var(--primary-color);
+  }
+  
+  .toggle-slider {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(50% - 8px);
+    height: calc(100% - 8px);
+    background-color: white;
+    border-radius: 18px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    z-index: 0;
+  }
+  
+  /* Move toggle slider for right option */
+  input:checked ~ label .toggle-slider {
+    transform: translateX(calc(100% + 8px));
+  }
+  
+  /* Unit system toggle options */
+  .unit-toggle .toggle-option.metric,
+  .unit-toggle .toggle-option.imperial {
+    padding: 0 8px;
+  }
+  
+  /* Input row for vessel size and spoon checkbox */
+  .input-container-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* Vessel size input styling */
+  .vessel-input-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .vessel-input-container label {
+    margin-right: 0.5rem;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-color);
+  }
+  
+  .vessel-input-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  #modal-vessel-input {
+    width: 100%;
+    padding: 8px 40px 8px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 0.95rem;
+    background-color: white;
+    transition: all 0.2s;
+    color: var(--text-color);
+  }
+  
+  #modal-vessel-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(138, 48, 51, 0.1);
+  }
+  
+  #modal-vessel-unit {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+    color: var(--text-light);
+  }
+  
+  /* Spoon checkbox styling */
+  .spoon-container {
+    flex: 1;
+  }
+  
+  .spoon-label {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--light-accent);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    transition: all 0.2s;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  .spoon-label:hover {
+    background-color: rgba(138, 48, 51, 0.08);
+  }
+  
+  #spoon-checkbox:checked + .spoon-label {
+    background-color: rgba(138, 48, 51, 0.12);
+    border-color: var(--primary-light);
+    color: var(--primary-color);
+  }
+  
+  .spoon-label i {
+    margin-right: 8px;
+    color: var(--primary-color);
+  }
+  
+  /* Western style steeping instruction */
+  .steeping-step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+    padding: var(--spacing-md);
+    background-color: rgba(122, 108, 86, 0.08);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(122, 108, 86, 0.2);
+  }
+  
+  .steeping-step .step-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    margin-right: var(--spacing-md);
+    flex-shrink: 0;
+    box-shadow: var(--shadow-sm);
+    font-size: 0.9rem;
+  }
+  
+  .steeping-step .step-instructions {
+    flex: 1;
+    padding-top: 6px;
+  }
+  
+  .steeping-step .step-instructions strong {
+    color: var(--primary-color);
+  }
+  
+  /* ======= RESPONSIVE STYLES ======= */
+  @media (max-width: 768px) {
+    /* Navigation styles */
+    .navbar-container {
+      padding: 0.7rem 1rem;
+    }
+    
+    .menu-toggle {
+      display: block;
+    }
+    
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 60px;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: var(--shadow-md);
+      padding: var(--spacing-lg) 0;
+      z-index: 90;
+      border-top: 1px solid var(--border-color);
+    }
+    
+    .nav-menu.active {
+      left: 0;
+    }
+    
+    .nav-item {
+      margin: var(--spacing-md) 0;
+    }
+    
+    .nav-link {
+      font-size: 1.1rem;
+    }
+    
+    .nav-link.active::after,
+    .nav-link:hover::after {
+      display: none;
+    }
+    
+    /* Filter layout */
+    .filter-container {
+      flex-direction: column;
+    }
+    
+    /* Search row elements stack on mobile */
+    .search-row {
+      flex-wrap: wrap;
+      gap: var(--spacing-xs);
+    }
+    
+    #tea-search, 
+    .search-row .filter-group,
+    #search-button {
+      flex-basis: 100%;
+    }
+    
+    .search-row .filter-group {
+      order: 1;
+    }
+    
+    #search-button {
+      order: 2;
+      margin-top: var(--spacing-xs);
+    }
+    
+    /* Tea detail adjustments */
+    .tea-detail-header {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  
+    .tea-detail-image {
+      margin-right: 0;
+      margin-bottom: var(--spacing-md);
+    }
+    
+    .tea-metadata {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .tea-metadata-right, .tea-metadata-left {
+      max-width: 100%;
+      text-align: center;
+      margin-top: var(--spacing-xs);
+    }
+    
+    .tea-detail-flavor {
+      border-left: none;
+      padding-left: 0;
+      text-align: center;
+      margin-top: var(--spacing-sm);
+      padding: var(--spacing-sm);
+      background-color: var(--light-accent);
+      border-radius: var(--radius-md);
+    }
+    
+    #tea-results {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    /* Tea info responsiveness */
+    .tea-info-grid {
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+    
+    .tea-info-item {
+      width: 100%;
+    }
+    
+    /* Card brewing methods stack on small screens */
+    .card-brewing-methods {
+      flex-direction: column;
+    }
+    
+    /* Toggle container responsiveness */
+    .toggle-container-row {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .brewing-toggle-container {
+      max-width: none;
+      width: 100%;
+    }
+    
+    .input-container-row {
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+    }
+    
+    .vessel-input-container,
+    .spoon-container {
+      width: 100%;
+    }
+    
+    .vessel-input-wrapper {
+      max-width: none;
+    }
+    
+    .spoon-label {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .modal-content {
+      padding: var(--spacing-md);
+      width: 95%;
+      margin: 3% auto;
+    }
+    
+    .tea-detail-image {
+      width: 140px;
+      height: 140px;
+    }
+  }
+  
+  /* Smallest screens adjustments */
+  @media (max-width: 500px) {
+    .brewing-toggle {
+      width: 100%;
+    }
+    
+    h1 { 
+      font-size: 2rem; 
+    }
+    
+    h2 { 
+      font-size: 1.5rem; 
+    }
+    
+    .tea-card {
+      border-radius: var(--radius-md);
+    }
+    
+    .tea-detail-image {
+      width: 120px;
+      height: 120px;
+    }
+    
+    .tea-detail-title h2 {
+      font-size: 1.4rem;
+    }
+    
+    .close-button {
+      top: var(--spacing-xs);
+      right: var(--spacing-xs);
+    }
+  }
+
+  /* Special Brewing Indicator Styles */
+.brewing-indicator {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    margin-top: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .brewing-indicator.normal {
+    background-color: var(--light-accent);
+    color: var(--text-color);
+  }
+  
+  .brewing-indicator.special {
+    background-color: var(--primary-light);
+    color: white;
+  }
+  
+  /* Modify tea card to show brewing type */
+  .tea-card .brewing-indicator {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+  }
+  
+  /* Special brewing tea card accent */
+  .tea-card.special-brewing {
+    border-left: 3px solid var(--primary-color);
+  }
+  
+  /* Special brewing instructions in modal */
+  .special-brewing-instructions {
+    background-color: var(--light-accent);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    margin-bottom: var(--spacing-lg);
+    border-left: 4px solid var(--primary-color);
+    box-shadow: var(--shadow-sm);
+  }
+  
+  .special-brewing-instructions p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .special-brewing-instructions strong {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  /* Step-by-step special brewing */
+  .special-brewing-step {
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .special-brewing-step:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+  }
+  
+  .special-brewing-step:after {
+    content: attr(data-step);
+    position: absolute;
+    left: 0;
+    top: 0.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: white;
+    border-top: 1px solid var(--border-color);
+    padding: var(--spacing-lg) 0;
+    color: var(--text-light);
+    margin-top: var(--spacing-xxl);
+  }
+
+/* Tea Commentary Section Styles */
+.tea-commentary-section {
+    background-color: var(--light-color);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    border-left: 3px solid var(--secondary-color);
+    position: relative;
+  }
+  
+  .tea-commentary-section h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--secondary-color);
+    border-bottom: 1px solid rgba(122, 108, 86, 0.2);
+    padding-bottom: 5px;
+  }
+  
+  .tea-commentary-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+  
+  .commentary-preview {
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .commentary-full {
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .commentary-toggle {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+    text-decoration: underline;
+    margin-top: var(--spacing-xs);
+    transition: color 0.2s;
+  }
+  
+  .commentary-toggle:hover {
+    color: var(--primary-dark);
+  }
+  
+  /* English Tea Name Display */
+  .tea-english-name {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Update to tea card styles for English name */
+.tea-content .tea-english-name {
+    font-size: 0.85rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    order: 1.5; /* Position it between tea name and description */
+  }
+  
+  /* Adjust spacing for tea name and description */
+  .tea-content h3 {
+    margin-bottom: 8px; /* Reduced from var(--spacing-sm) */
+  }
+  
+  .tea-description {
+    margin-top: 2px; /* Add a small offset */
+  }
+  
