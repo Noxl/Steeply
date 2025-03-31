@@ -750,7 +750,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Zhu-Ye-Qing-Tea-03.jpg",
-      "commentary": "",
+      "commentary": "Zhu Ye Qing (Bamboo Leaf Green) originated in the 1960s on Emei Mountain in Sichuan province, one of China's four sacred Buddhist mountains. The tea was developed by Buddhist monks at Wannian Temple, who selected a unique tea cultivar with leaves resembling bamboo leaves—long, slender, and pointed. The cultivation area sits at elevations between 800-1,200 meters, where the mountain's misty microclimate and rich soil contribute to the tea's distinctive character. The name comes from both the shape of the leaves and their bright jade-green color after processing. Traditional production involves careful hand-picking of only the most tender shoots during a brief spring harvest period, followed by a distinctive pan-firing technique that preserves the flat, smooth appearance of the leaves. The tea gained national recognition in the 1980s when it began winning awards in Chinese tea competitions and is now considered one of the most prized teas of Sichuan province, helping to establish the region's reputation for fine tea beyond its famous cuisine.",
       "normalBrewing": 1
     },
     {
@@ -767,7 +767,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Anji_bai_cha_leaves.jpg/1920px-Anji_bai_cha_leaves.jpg",
-      "commentary": "",
+      "commentary": "Anji White Tea (which is actually a green tea despite its name) features a rare tea cultivar mentioned in Lu Yu's ancient Classic of Tea (780 CE) but thought lost for centuries until its rediscovery in Anji County in 1982. This cultivar contains dramatically reduced chlorophyll levels for about 30 days each spring, causing new leaves to appear white or yellow rather than green—a genetic mutation that creates its distinctive character. The plant produces normal green leaves the rest of the year, making the harvest period extremely limited. Modern commercial production began only in the 1990s after researchers propagated the discovered bush. The carefully guarded processing techniques involve minimal manipulation to preserve the tea's delicate nature. Due to its exceptional amino acid content (nearly double other green teas), it produces a sweet, smooth flavor with none of the astringency typically associated with green tea. Since its introduction to the wider market, Anji White has become one of China's most prestigious and expensive green teas, with production strictly limited to Anji County in northern Zhejiang province.",
       "normalBrewing": 1
     },
     {
@@ -784,7 +784,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Fresh_Hou_Kui_Green_Tea_01.JPG",
-      "commentary": "",
+      "commentary": "Hou Kui (Monkey King) emerged in the late 19th century, created by tea farmer Wang Lianfang from Hougang (Monkey Village) in Anhui Province. The tea's creation coincided with a growing market for distinctive artisanal teas during the late Qing Dynasty. Its name combines a reference to its origin village and the supremacy of its quality (kui meaning chief or foremost). The tea uses a specific local cultivar grown in the microclimate of the Huangshan foothills, specifically from Taiping County. Authentic production involves an elaborate process where each leaf is individually pressed and dried between pieces of special paper, creating the distinctive flat appearance that can reach 7-8 cm in length. The leaves' unique appearance resembles the Chinese character for 'person' (人), leading to its occasional nickname of 'Ren Zi Cha' (人字茶). During the Cultural Revolution, production nearly ceased but was revitalized in the 1980s. The tea gained international recognition in 1991 when it won a gold medal at the 27th World's Fair, cementing its status as one of China's most distinctive premium green teas.",
       "normalBrewing": 1
     },
     {
@@ -801,7 +801,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "https://www.world-of-tea.ca/cdn/shop/products/MeiTan_2000x.jpg?v=1595885991",
-      "commentary": "",
+      "commentary": "Yun Wu (Cloud Mist) teas originate from tea gardens situated at high elevations (typically above 800 meters) where mountains are frequently shrouded in clouds and mist. This classification spans several growing regions, with notable productions from the Lushan mountains in Jiangxi, Mount Huangshan in Anhui, and various high mountain areas in Zhejiang province. The misty microclimate creates ideal growing conditions—protection from intense sunlight, consistent humidity, and dramatic temperature variations—that slow leaf growth while enhancing flavor compounds and amino acids. The name poetically describes both the tea's origin environment and the legendary ability of the finest teas to evoke the mountain mists when brewed. Traditional Cloud Mist processing techniques date to the Ming Dynasty (1368-1644), when loose leaf green tea production flourished. The leaves are typically twisted rather than flat-pressed, distinguishing them from pan-fired teas like Dragon Well. During the Cultural Revolution, many high-mountain tea gardens were abandoned, but production has revitalized since the 1980s as premium Chinese teas gained renewed appreciation domestically and internationally.",
       "normalBrewing": 1
     },
     {
@@ -818,7 +818,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "https://media.dammann.fr/img/p/7/1/4/8/7148.jpg?t=1738136492&width=375&height=268",
-      "commentary": "",
+      "commentary": "Gan Lu (Sweet Dew) has historical origins dating to the Tang Dynasty (618-907), when it was listed among the tribute teas sent to the imperial court. The name references an ancient Chinese concept of 'sweet dew' (ganlu), which in Buddhist and Daoist traditions symbolizes the nectar of immortality. The tea is primarily produced in the mountainous regions of Sichuan Province, particularly around Mount Mengding and Mount Emei—both areas with significant Buddhist heritage. Traditional production involves harvesting only the earliest spring buds, typically before the Qingming Festival (early April), when the buds are at their most tender and sweet. The processing technique emphasizes preserving the natural sweetness through careful temperature control during firing. Mount Mengding Sweet Dew gained renewed fame when it was selected as one of the official gift teas for the 1972 visit of US President Nixon to China, representing a cultural reintroduction after decades of isolation. Today, authentic Gan Lu remains primarily produced in small batches by traditional methods, though its popularity has led to wider production throughout Sichuan's tea-growing regions.",
       "normalBrewing": 1
     },
     {
@@ -835,7 +835,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "https://www.chawudu.com/pub/media/catalog/product/cache/04dedb3997f865c36dbfb13172d583a7/z/w/zwischenablage02_4_9.jpg",
-      "commentary": "",
+      "commentary": "Green Peony tea emerged during the late Qing Dynasty (mid-19th century) as artisanal tea craftsmanship flourished. It represents a distinctive style of presentation tea where skilled tea masters shape the leaves to resemble a blossoming peony flower—a symbol of nobility and prosperity in Chinese culture. The name deliberately evokes the more famous White Peony (Bai Mu Dan) tea, though it's fully processed as a green tea rather than a white tea. Traditional production originated in eastern China's Jiangsu and Zhejiang provinces, using local cultivars with larger, more pliable leaves suitable for the special shaping process. The processing involves first creating a 'base' of flat-pressed leaves, then carefully wrapping outer leaves around this center to create the floral appearance. Originally created as a luxury product for the aristocratic and scholarly classes, the tea declined during the early Communist era but has been revived since the 1990s as interest in traditional Chinese tea arts increased. Today, it remains primarily a specialty tea that showcases the artistic dimension of Chinese tea culture, valued as much for its visual presentation as for its flavor profile.",
       "normalBrewing": 1
     },
     {
@@ -852,7 +852,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "https://petitgaiwan.com/1270-tm_thickbox_default/tian-mu-qing-ding.jpg",
-      "commentary": "",
+      "commentary": "Qing Ding traces its origins to the Song Dynasty (960-1279) when it was developed in the Tianmu Mountain region of Zhejiang Province, an area renowned for its biodiversity and ideal tea-growing conditions. The name refers both to the tea's origin on the summit (ding) of the mountains and to the bluish-green (qing) color of its processed leaves. Historical records indicate it was a favorite of Emperor Gaozong (1127-1162), who praised its 'clear mountain character.' Traditional production involves harvesting only the smallest, most tender buds during a brief window in early spring, often limited to just a few days before the Qingming Festival. The distinctive processing method involves a precise sequence of firings and coolings that preserves the buds' natural shape while developing their sweet flavor profile. During the Ming Dynasty (1368-1644), the tea was elevated to tribute status, sent annually to the imperial court. Production declined dramatically during the Cultural Revolution but was revitalized in the 1980s as part of China's efforts to recover traditional tea crafts. Today, authentic Qing Ding remains a small-batch production, primarily from the nature reserves of the Tianmu Mountains where some tea trees are several hundred years old.",
       "normalBrewing": 1
     },
     {
@@ -869,7 +869,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "https://cdn.jardinsdegaia.com/1003-large_default/snow-dragon.jpg",
-      "commentary": "",
+      "commentary": "Snow Dragon tea originated during the Ming Dynasty (1368-1644) in China's mountainous Fujian province, though similar styles are now produced in several Chinese tea regions. The poetic name refers to both the appearance of the white downy buds against the darker leaves—resembling snow on mountain slopes—and the twisted shape that evokes a Chinese dragon. Traditional production involves careful selection of early spring growth comprising one bud and one or two leaves. The distinctive processing creates the twisted shape: after initial firing, the leaves are rolled in a specific motion that creates a spiral shape while keeping the downy white buds visible. This labor-intensive technique requires considerable skill and was traditionally passed down through family lineages. During the Republican era (1912-1949), Snow Dragon gained popularity among the educated classes, appearing in poetry and literary works. Production declined during the Cultural Revolution but was revitalized in the 1980s and 1990s as interest in traditional Chinese teas increased. Modern incarnations include versions from Anhui and Zhejiang provinces, each imparting regional characteristics to the basic style."
       "normalBrewing": 1
     },
     {
@@ -886,7 +886,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "http://www.teaspring.com/image/products/more/231/large/Song_Luo_Nen_Hao.jpg",
-      "commentary": "",
+      "commentary": "Song Luo (Pine Snail) tea originated during the Ming Dynasty (1368-1644) in the mountainous Song Luo region of Anhui Province. The name derives from both its origin and its appearance—the tightly curled leaves resemble tiny snails, and the tea grows in pine-forested mountains that contribute to its distinctive aroma. Historical records indicate it was a tribute tea during the Ming and Qing dynasties, enjoyed by the imperial court. Traditional production involves harvesting only the youngest shoot consisting of a bud and one or two tender leaves in early spring. The distinctive rolling technique that creates the snail-like appearance requires considerable skill, with each leaf rolled individually by hand in a specific motion. The pine forests surrounding the tea gardens create a unique microclimate and soil composition that influences the tea's character, imparting subtle pine and chestnut notes. Song Luo's production nearly vanished during the mid-20th century but was revitalized in the 1980s as part of China's efforts to preserve traditional tea crafts. Today, authentic Song Luo remains limited to small-batch production in its original growing area, primarily in the mountains of Anhui's Xuancheng region.",
       "normalBrewing": 1
     },
     {
@@ -903,7 +903,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "https://boutique.lushan.fr/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/7/0/70-xiang-cha-organique-the-vert-chine-2-0545.jpg",
-      "commentary": "",
+      "commentary": "Xiang Cha (Fragrant Tea) refers to a category of naturally aromatic green teas that has been cultivated in China since the Song Dynasty (960-1279). Unlike scented teas where aromatics are added during processing, Xiang Cha varieties derive their fragrance entirely from the tea plant's natural essential oils and aromatic compounds. The cultivation developed as tea connoisseurs sought varieties with distinctive natural aromas, selecting and propagating particularly fragrant tea bushes over generations. Traditional production centers include the mountainous regions of Zhejiang, Fujian, and Anhui provinces, where specific microclimates enhance aromatic development in the leaves. Historical records from the Ming Dynasty describe specific cultivation techniques to enhance fragrance, including planting tea bushes alongside certain aromatic flowers and herbs to influence the soil composition. The processing emphasizes preserving these natural aromas through careful temperature control during firing. During the Tang and Song dynasties, these naturally fragrant teas were particularly valued for poetry gatherings and scholarly discussions, where their aroma was considered conducive to creative thinking. Today, various regional types exist, each with characteristic fragrance profiles ranging from orchid and magnolia to more citrus or honey-like notes.",
       "normalBrewing": 1
     },
     {
@@ -920,7 +920,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Yin Hao (Silver Tip) green tea emerged during the Qing Dynasty (1644-1912) as a refinement of traditional green tea processing techniques, focusing on preserving the downy white hairs (hao) that cover the youngest tea buds. The name references the silvery appearance of these fine hairs, which create a frosted look on the finished tea. Traditional production involves careful hand-picking of only the smallest, most tender buds during a brief spring harvest period. Unlike other premium green teas that may include one or two small leaves, authentic Yin Hao consists almost entirely of buds. The processing requires exceptional skill, using lower temperatures and gentler handling than typical green teas to preserve the delicate down. Historically, the style developed in Jiangsu and Zhejiang provinces, though similar teas are now produced in several regions. During the late Qing period, it became particularly associated with the scholarly and artistic classes, who appreciated its subtle complexity. The tea almost disappeared during the early Communist period when production focused on quantity over quality, but has been revitalized since the 1980s as part of China's effort to recover traditional tea crafts. Modern Yin Hao continues to be produced in small quantities, primarily for domestic connoisseurs and specialty tea markets.",
       "normalBrewing": 1
     },
     {
@@ -937,7 +937,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Yin Feng (Silver Peak) tea originated in the high mountains of China's eastern provinces, primarily Anhui and Jiangxi, during the late Ming to early Qing transition period (mid-17th century). The name evokes both the silver-tipped appearance of the buds and their growth at high elevations, often shrouded in clouds like mountain peaks. Traditional production requires selective picking from tea gardens situated above 800 meters, where cooler temperatures and greater diurnal temperature variation create slower growth and more concentrated flavor compounds. The distinctive processing technique preserves the pointed shape of the buds through minimal rolling, with special care taken to maintain the silvery down that covers them. Historical records indicate it was particularly prized by scholars and officials during the Qing Dynasty, often presented as gifts during important meetings. The tea nearly disappeared during the Cultural Revolution, when many mountain tea gardens were abandoned or replanted with other crops, but production was revitalized in the 1990s as part of China's broader tea renaissance. Today, authentic Yin Feng remains a small-batch artisanal product, produced primarily in traditional tea-growing regions using cultivars specifically selected for their high-altitude adaptability and distinctive flavor profiles.",
       "normalBrewing": 1
     },
     {
@@ -954,7 +954,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Lan Hua (Orchid) tea emerged during the Song Dynasty (960-1279) when tea connoisseurs began cultivating tea varieties with naturally floral aromas reminiscent of orchids—a flower deeply significant in Chinese culture as a symbol of elegance, nobility, and refinement. Unlike scented teas where fragrance is added during processing, Lan Hua's orchid notes come entirely from the tea plant itself. Traditional production centers in the mountainous regions of Fujian and Guangxi provinces, where wild orchids grow alongside tea bushes, creating a unique terroir. Over centuries, farmers selected and propagated tea plants with the strongest orchid-like aromas, gradually developing distinctive cultivars. The processing technique emphasizes preserving these natural aromas through careful temperature control during firing. Historical texts from the Song and Ming periods frequently mention this tea in connection with poetry gatherings and scholarly retreats, where its refined aroma was considered conducive to artistic inspiration. During the Qing Dynasty (1644-1912), it became associated with the literati class, who often paired tea appreciation with orchid cultivation as complementary aesthetic pursuits. Today, authentic Lan Hua remains primarily produced in small quantities by traditional methods, with production techniques closely guarded by families who have specialized in this style for generations.",
       "normalBrewing": 1
     },
     {
@@ -971,7 +971,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Fo Cha (Buddha Tea) has roots stretching back to the Tang Dynasty (618-907) when Buddhism flourished throughout China and tea became an integral part of monastic life. The connection between tea and Buddhism was formalized when the monk Eisai wrote the first Japanese tea treatise in 1214, declaring that Tea and Zen are one flavor. Buddha Tea traditionally refers to teas cultivated in gardens maintained by Buddhist temples and monasteries, particularly those on China's sacred Buddhist mountains—Emei, Putuo, Wutai, and Jiuhua. These mountain temples, often situated at ideal elevations for tea cultivation (800-1,500 meters), became centers of tea innovation and preservation. Monks developed distinctive processing methods, often emphasizing the tea's natural character with minimal manipulation, reflecting Buddhist principles of simplicity and awareness of nature. The tea was used both for meditation practice—helping monks remain alert during long sessions—and as a source of temple income through trade. Historical records show that by the Song Dynasty (960-1279), several major temples had become famous for their distinctive teas, which were sought after by both officials and literati. Today, authentic temple teas remain in production at many historical Buddhist sites, with some monastery gardens containing tea bushes dating back several centuries.",
       "normalBrewing": 1
     },
     {
@@ -988,7 +988,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Chun Ya (Spring Buds) tea represents one of China's most ancient tea traditions, with records of early spring harvest teas dating back to the Tang Dynasty (618-907). The name celebrates the first growth of the tea season, when plants awaken from winter dormancy to produce their most tender and flavorful buds. Historically, these first spring teas were so prized that specific dates for harvesting were established in the imperial calendar, often coinciding with seasonal festivals like the Spring Equinox or Qingming Festival (early April). Traditional harvest practices involved careful timing based on both lunar calendar dates and natural indicators like the blooming of certain flowers or emergence of specific insects. The finest Chun Ya comes from gardens at higher elevations (above 700 meters), where cooler temperatures delay budding until the optimal flavor compounds have developed. Processing techniques emphasize preserving the buds' natural sweetness through gentle handling and precise temperature control during firing. Throughout Chinese history, offering the season's first spring buds was considered an auspicious gift, symbolizing renewal and good fortune for the coming year. Today, premium Chun Ya remains highly seasonal, available only during a brief window in early spring, with production spanning several tea-growing provinces including Zhejiang, Anhui, and Jiangsu.",
       "normalBrewing": 1
     },
     {
@@ -1005,7 +1005,7 @@ const teaDatabase = {
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Mei Cha (Plum Tea) originated during the Song Dynasty (960-1279) when tea cultivation expanded in regions where wild plum trees grow alongside tea bushes. The name references the natural plum-like notes that develop in teas grown in this companion environment, not from actual plum flavoring. Traditional production centers in the Yangtze River Delta region, particularly in parts of Zhejiang and Jiangsu provinces where plum orchards have been cultivated for centuries. Historical records from the Southern Song period (1127-1279) document imperial tribute teas with distinctive fruity characters that likely represented early versions of this style. The distinctive fruity notes develop through a combination of terroir—the soil composition influenced by nearby plum trees—and specialized processing that emphasizes oxidative reactions that enhance fruit-like aromas. During the Ming Dynasty (1368-1644), the tea became associated with the scholarly class who appreciated its connection to plum blossoms—a symbol of perseverance and noble character in Chinese culture. Poetry from this period often paired tea appreciation with plum blossom viewing as complementary aesthetic experiences. Today, authentic Mei Cha remains produced in limited quantities in traditional growing regions, primarily using cultivars specifically selected for their natural fruit-forward character.",
       "normalBrewing": 1
     },
     {
@@ -1192,7 +1192,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 90-95°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Medium-roasted high mountain oolongs emerged in the 1990s as Taiwanese tea masters sought to create more complex profiles by applying traditional roasting techniques to the newer high mountain tea styles. This approach represents a bridge between the modern green, floral high mountain oolongs that gained popularity in the 1980s and the more traditional, heavily roasted styles of earlier generations. The careful roasting process transforms the tea's natural floral qualities, adding layers of caramel, fruity, and nutty notes while preserving the tea's mountain character. Traditional roasting uses charcoal from the native longan fruit tree, which imparts subtle honey notes to complement the tea's natural sweetness. The roasting process is highly technical, often requiring multiple sessions at progressively higher temperatures, with rest periods between to allow the leaves to stabilize. Master roasters guard their techniques closely, with skills passed down through family lineages or master-apprentice relationships. This style gained appreciation among connoisseurs who found purely floral high mountain teas one-dimensional while considering traditional heavy roasts too intense. Today, medium-roasted high mountain oolongs represent a premium category in Taiwan's tea market, with the finest examples coming from established tea gardens in renowned growing regions like Alishan, Li Shan, and Shan Lin Xi.",
       "normalBrewing": 1
     },
     {
@@ -1209,7 +1209,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 95-100°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Heavily roasted high mountain oolongs represent a revival of traditional Taiwanese tea craftsmanship applied to premium high-elevation tea leaves. This style emerged in the early 2000s as part of a movement to reconnect with Taiwan's tea heritage, after decades of market preference for greener, less processed oolongs. The intensive roasting process involves multiple sessions over charcoal at carefully controlled temperatures, sometimes continuing for several days or even weeks, with rest periods between roastings to allow the leaves to stabilize. This transforms the tea's character completely, replacing floral notes with deep, rich flavors reminiscent of dark chocolate, roasted nuts, and dried fruits. Master roasters are highly respected artisans who can enhance the tea's inherent qualities through careful firing without introducing burnt flavors. The best examples use premium high mountain tea as their base material, creating a fascinating contrast between the refined character of high mountain terroir and the deep complexity introduced through traditional roasting techniques. This style has gained particular appreciation among collectors, as the heavily roasted leaves can continue developing interesting flavors through aging, similar to traditionally processed Wuyi rock oolongs from mainland China.",
       "normalBrewing": 1
     },
     {
@@ -1226,7 +1226,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90-95°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Traditional Dong Ding oolong represents one of Taiwan's most historically significant teas, with origins dating to 1855 when tea farmer Lin Feng Chi brought 36 tea plant cuttings from Fujian's Wuyi Mountains and planted them on Dong Ding (Frozen Peak) Mountain in Lugu, Nantou County. This established Taiwan's first oolong tea garden and laid the foundation for the island's renowned tea industry. The term 'traditional' refers specifically to processing methods that involve medium oxidation (25-30%) followed by slow charcoal roasting, creating a balance between floral and fruity notes with roasted, honey-like depth. Throughout the 20th century, these traditional techniques were passed down through family lineages, with each generation of tea masters refining the craft. During the 1970s, as export markets expanded, many producers began shifting toward greener, less oxidized styles with minimal roasting that appealed to international tastes. By the 1990s, traditionally processed Dong Ding had become less common, prompting a preservation movement among tea masters concerned about losing cultural heritage. The revitalization of traditional processing helped establish Taiwan's premium tea market, with traditionally crafted Dong Ding commanding higher prices than its greener counterparts. Annual competitions in Lugu Township continue setting quality standards, with traditionally processed teas often winning top honors. The finest examples still use the original Qingxin cultivar from those first 36 plants, though newer cultivars have been introduced to increase disease resistance.",
       "normalBrewing": 1
     },
     {
@@ -1243,7 +1243,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3-4 minutes, 95-100°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "The practice of aging Dong Ding oolong tea developed organically in Taiwan during the mid-20th century, when tea merchants and farmers discovered that well-roasted teas stored properly could develop remarkable complexity over time. While pu'er has a more widely known aging tradition, aged oolongs represent a distinct tradition with their own unique characteristics. Proper aging typically requires initial heavy roasting to stabilize the tea, followed by storage in a climate with moderate humidity but good air circulation. Over years of aging, the roasted character softens while new dimensions of flavor emerge—medicinal herbs, dried fruits, and unique spice notes not present in the original tea. The most prized aged Dong Ding comes from the traditional production area around Lugu in Nantou County, particularly teas made from the original Qingxin cultivar brought from China in the 19th century. During the 1990s and 2000s, well-aged Dong Ding from the 1970s and 1980s began commanding premium prices as connoisseurs recognized their unique qualities. Today, aged Dong Ding represents one of Taiwan's most distinctive tea styles, with established collectors specifically aging teas for future enjoyment, creating a market similar to fine wine collecting.",
       "normalBrewing": 1
     },
     {
@@ -1311,7 +1311,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Gui Fei oolong was developed in the early 2000s in Taiwan, born from necessity after a massive earthquake in 1999 and subsequent typhoons led to increased leafhopper insect activity in tea gardens. Tea farmers, inspired by the bug-bitten Oriental Beauty style, applied these principles to different cultivars and processing techniques. The name 'Concubine' (referring to Imperial Yang Guifei, one of China's legendary beauties) was chosen to indicate its relation to Oriental Beauty while signifying its distinctive character. Unlike Oriental Beauty, which undergoes higher oxidation, Gui Fei typically receives moderate oxidation (30-40%) and light to medium roasting, creating a different flavor profile while maintaining the honey notes triggered by leafhopper damage. The tea requires specific growing conditions—summer harvests with sufficient leafhopper presence but not excessive damage. Production originally centered in central Taiwan's Nantou County but has expanded to other regions. Initially developed for the domestic Taiwanese market, Gui Fei gained international recognition in the 2010s as specialty tea importers discovered its unique character. Today, it represents an innovative category that bridges traditional insect-enhanced processing with modern Taiwanese oolong craftsmanship.",
       "normalBrewing": 1
     },
     {
@@ -1345,7 +1345,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90-95°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Red Oolong emerged in the late 1990s as Taiwanese tea researchers sought to develop novel styles that would differentiate Taiwan's tea industry in increasingly competitive global markets. This innovative category bridged traditional oolong and black tea processing techniques, creating a hybrid style with characteristics of both. The tea undergoes higher oxidation (60-70%) than typical oolongs but less than full black teas, with minimal roasting to preserve its fruity character. The Taiwan Tea Research and Extension Station (TRES) played a central role in standardizing production methods, working with farmers to refine techniques that would consistently produce the desired style. Initial development focused on using the native Taiwanese wild tea cultivar crossed with Assamica varieties, though production has expanded to include other cultivars. The name reflects its reddish leaf appearance and liquor color, placing it in the spectrum between traditional dark oolongs and black teas. Red Oolong gained significant attention after winning awards in Taiwanese tea competitions in the early 2000s. Within a decade, it had established itself as a recognized category in Taiwan's tea market, demonstrating the ongoing innovation in Taiwanese tea craftsmanship as producers continue developing new styles to showcase the island's distinctive terroir.",
       "normalBrewing": 1
     },
     {
@@ -1362,7 +1362,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water low to medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 90°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Osmanthus Oolong represents one of East Asia's most beloved scented teas, with traditions dating back to the Ming Dynasty (1368-1644) when osmanthus flowers were first used to impart their distinctive fragrance to tea. Unlike jasmine tea, which relies on repeated scenting, traditional osmanthus oolong undergoes a single, delicate scenting process. Fresh osmanthus blossoms, which bloom for only a brief period in autumn, are layered with finished oolong tea and left overnight, allowing the tea to absorb the flower's essence without overwhelming its natural character. The finest versions use high-quality oolong with minimal roasting as the base, typically from Taiwan or Fujian, with light or medium oxidation that complements the floral notes. The tradition holds particular cultural significance in Taiwan and southern China, where osmanthus trees are widely grown and their flowers used in both culinary and medicinal applications. The fragrance of osmanthus is culturally associated with prosperity and good fortune in Chinese tradition, making this tea popular during autumn festivals and celebrations. Modern production maintains traditional scenting methods, though commercial versions sometimes use osmanthus essence rather than natural flowers. Artisanal producers continue creating premium versions using only fresh osmanthus blossoms harvested at their fragrant peak, making high-quality osmanthus oolong a seasonal specialty.",
       "normalBrewing": 1
     },
     {
@@ -1379,7 +1379,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "2.5g per 240ml, 3 minutes, 90-95°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Hong Yu (TRES #18), commonly known as Ruby Black, represents one of Taiwan's most successful tea breeding innovations of the late 20th century. It was created in the 1980s by the Taiwan Tea Research and Extension Station through crossing native Taiwanese wild tea plants with Burmese Assamica varieties, but only commercialized in the late 1990s after extensive development. The cultivar's uniqueness comes from this hybridization, which created an unprecedented flavor profile combining the robust character of Assamica with subtle mint, cinnamon, and wintergreen notes from Taiwan's indigenous tea plants. These distinctive natural flavors, particularly the menthol-like cooling sensation, set it apart from other black teas worldwide. Initial production centered around Sun Moon Lake in central Taiwan's Nantou County, where the breeding program was based. Early commercial releases gained immediate attention for their novel character, winning awards in Taiwanese tea competitions. By the 2010s, Ruby Black had become Taiwan's most internationally recognized black tea, helping revitalize Taiwan's black tea industry which had declined since its heyday in the Japanese colonial period. The tea's success demonstrates Taiwan's continuing innovation in tea cultivation, creating distinctive products that showcase the island's unique terroir and botanical heritage rather than simply imitating established styles from elsewhere.",
       "normalBrewing": 1
     },
     {
@@ -1396,7 +1396,7 @@ const teaDatabase = {
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "2.5g per 240ml, 3 minutes, 90-95°C",
       "imageUrl": "",
-      "commentary": "",
+      "commentary": "Sun Moon Lake black tea has a complex history intertwining Japanese colonial influence, indigenous Taiwan botany, and modern craft revival. Commercial production began during Japanese occupation (1895-1945), when Japanese authorities established research stations to develop black tea as an export crop. The region's unique terroir—surrounded by mountains at 700-800 meters elevation with a humid, misty microclimate around Taiwan's largest lake—proved ideal for black tea cultivation. After initial success using imported Assam varieties, researchers discovered native wild tea plants growing in Taiwan's mountains and began creating hybridized cultivars that combined the robust character of Assamica with unique characteristics of indigenous Taiwanese tea. Production peaked during the colonial period but declined sharply after WWII as Taiwan's tea industry shifted focus to oolong production for domestic consumption. By the 1980s, only a handful of producers remained. The modern renaissance began in the late 1990s, spearheaded by both research institutions and private farmers who recognized the area's potential for premium black tea. Several distinctive cultivars now dominate production, including Hong Yu #18 (Ruby), Hong Yu #21 (Jade Rouge), and Hong Yun (Red Charm), each with unique characteristics derived from their wild tea heritage. Today, Sun Moon Lake black teas are recognized internationally for their distinctive profiles, helping establish Taiwan's reputation for crafting innovative, high-quality black teas with a character unlike those from any other region.",
       "normalBrewing": 1
     }
   ]
