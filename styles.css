@@ -115,13 +115,8 @@
   
   /* ======= TOP NAVIGATION ======= */
 
-  #kofi-button {
-    padding-left: 20px;
-    margin-top: 5px;
-  }
-
   #upper_logo {
-    max-width: 40px;
+    width: 40px;
     padding-right: 10px;
     margin-bottom: 5px;
   }
