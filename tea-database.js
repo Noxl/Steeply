@@ -297,7 +297,7 @@ const teaDatabase = {
     },
     {
       "category": "Oolong Tea",
-      "type": "Tie Guan Yin (铁观音)",
+      "type": "Tie Guan Yin - Light (铁观音)",
       "englishType": "Iron Goddess of Mercy - Light",
       "description": "Lightly oxidized version of famous Chinese oolong",
       "flavorProfile": "Floral creamy orchid notes slight vegetal character",
@@ -314,7 +314,7 @@ const teaDatabase = {
     },
     {
       "category": "Oolong Tea",
-      "type": "Tie Guan Yin (铁观音)",
+      "type": "Tie Guan Yin - Dark (铁观音)",
       "englishType": "Iron Goddess of Mercy - Dark",
       "description": "Traditional roasted version of Tie Guan Yin",
       "flavorProfile": "Roasted nutty woody caramel notes fruity",
