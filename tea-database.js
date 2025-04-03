@@ -16,7 +16,8 @@ const teaDatabase = {
       "westernSteeping": "2g per 240ml, 2-3 minutes, 80-85°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Bai_Hao_Yin_Zhen_tea_leaf_%28Fuding%29.jpg",
       "commentary": "Silver Needle originated during the Song Dynasty (960-1279) in China's Fujian province. It's considered one of China's Ten Famous Teas and was historically reserved for imperial tribute. Traditionally harvested for just two days each spring before the Qingming Festival, this tea requires selective picking of only unopened buds. The finest Silver Needle comes from the Fuding and Zhenghe regions, where the tea plants belong to the Da Bai (Big White) cultivar. The downy white hairs on the buds (bai hao) are indicators of high quality and provide the tea with its name.",
-      "normalBrewing": 1
+      "normalBrewing": 1,
+      "cultivars": "Fuding Da Bai, Zhenghe Da Bai"
     },
     {
       "category": "White Tea",
@@ -33,7 +34,8 @@ const teaDatabase = {
       "westernSteeping": "2g per 240ml, 2-3 minutes, 85°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Wei%C3%9Fer_Tee_Pai_Mu_Tan.jpg",
       "commentary": "White Peony emerged in the 1870s as a more affordable alternative to Silver Needle. It originated in Fujian's northern counties, particularly Zhenghe, where farmers developed a tea combining both buds and leaves. The name White Peony comes from the visual appearance of the dried tea—a silvery bud nestled within two greenish leaves resembling a peony flower. During the 20th century, it became more widely produced and exported, especially after the Chinese tea industry's resurgence in the 1980s. Today, authentic White Peony comes primarily from the Fuding and Zhenghe regions, though it's also produced in Yunnan and Guangxi provinces.",
-      "normalBrewing": 1
+      "normalBrewing": 1,
+      "cultivars": "Fuding Da Bai, Zhenghe Da Bai"
     },
     {
       "category": "White Tea",
@@ -50,7 +52,8 @@ const teaDatabase = {
       "westernSteeping": "2.5g per 240ml, 3 minutes, 90°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Shou_Mei_tea.JPG",
       "commentary": "Shou Mei, meaning Longevity Eyebrow, was developed in the early 20th century as a way to utilize the larger, more mature leaves from the white tea harvest. It's considered the third grade of white tea after Silver Needle and White Peony. Historically, it was primarily consumed locally rather than exported. The name references both its appearance—the leaves can resemble eyebrows—and the Chinese cultural association between white tea and longevity. During the Cultural Revolution (1966-1976), production declined but was revitalized afterward. Modern Shou Mei is particularly prized for aging, as its robust character develops mellow, sweet medicinal notes over time, leading to increased popularity among collectors since the 2000s.",
-      "normalBrewing": 1
+      "normalBrewing": 1,
+      "cultivars": "Fuding Da Bai"
     },
     {
       "category": "White Tea",
@@ -150,7 +153,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "10s 15s 20s 30s 40s +15s each additional steep",
       "typesOfWater": "Spring water low in minerals",
       "westernSteeping": "2g per 240ml, 2-3 minutes, 85°C",
-      "imageUrl": "https://www.curioustea.com/wp-content/uploads/2018/11/China-Fudign-Fujian-Bai-Mu-Dan-White-Peony-King-White-Tea-1.jpg",
+      "imageUrl": "https://riversandlakestea.net/wp-content/uploads/2021/06/bmdwang0006-scaled.jpg",
       "commentary": "Mu Dan Wang (King Peony) represents the highest grade of White Peony tea, developed to meet growing market demand for premium white teas in the late 20th century. While standard White Peony has a ratio of about one bud to two or three leaves, King Peony features a higher proportion of buds—typically one bud to one leaf or one bud to two small leaves. It follows the same processing methods as regular White Peony but uses more selective picking standards. This grade gained prominence in the 1990s and 2000s as the international market for fine Chinese teas expanded. The designation Wang (King) follows a traditional Chinese practice of using imperial terminology to designate superior grades. Production is centered in Fujian's Fuding and Zhenghe counties, using the Da Bai (Big White) tea cultivar, though some producers in Guangxi and Yunnan now also create their own versions using local tea varieties.",
       "normalBrewing": 1
     },
@@ -186,7 +189,8 @@ const teaDatabase = {
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Longjing_tea.jpg",
       "commentary": "Dragon Well tea originated during the Tang Dynasty (618-907) but gained imperial recognition in the Qing Dynasty when Emperor Qianlong (1711-1799) was so impressed with the tea from the Shifeng Mountain area that he conferred imperial status on 18 tea bushes there. These original imperial tea trees still exist today. The flat, sword-like shape comes from being pan-fired and pressed against a hot wok. The authentic production area is around West Lake in Hangzhou, divided into several regions with Shifeng, Longjing Village, and Meijiawu being the most prestigious. The modern grading system of Dragon Well was standardized in the 1950s, categorizing the tea from Supreme to Grade 5. Pre-Qingming (early spring) Dragon Well commands the highest prices. Since being designated one of China's Ten Famous Teas, Dragon Well has become one of China's most counterfeited teas, with much more Dragon Well sold worldwide than the authentic production regions can actually produce.",
-      "normalBrewing": 1
+      "normalBrewing": 1,
+      "cultivars": "Longjing #43, Longjing Qunti Zhong, Longjing Changye, Wu Niu Zao, Longjing Jiu Keng, Bai Ye 1, Jiukeng, Mei Jia Wu"
     },
     {
       "category": "Green Tea",
@@ -919,7 +923,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
-      "imageUrl": "",
+      "imageUrl": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/0893f9268f004d3883c481fc77b07c43~tplv-xv4ileqgde-resize-w:750.image",
       "commentary": "Yin Hao (Silver Tip) green tea emerged during the Qing Dynasty (1644-1912) as a refinement of traditional green tea processing techniques, focusing on preserving the downy white hairs (hao) that cover the youngest tea buds. The name references the silvery appearance of these fine hairs, which create a frosted look on the finished tea. Traditional production involves careful hand-picking of only the smallest, most tender buds during a brief spring harvest period. Unlike other premium green teas that may include one or two small leaves, authentic Yin Hao consists almost entirely of buds. The processing requires exceptional skill, using lower temperatures and gentler handling than typical green teas to preserve the delicate down. Historically, the style developed in Jiangsu and Zhejiang provinces, though similar teas are now produced in several regions. During the late Qing period, it became particularly associated with the scholarly and artistic classes, who appreciated its subtle complexity. The tea almost disappeared during the early Communist period when production focused on quantity over quality, but has been revitalized since the 1980s as part of China's effort to recover traditional tea crafts. Modern Yin Hao continues to be produced in small quantities, primarily for domestic connoisseurs and specialty tea markets.",
       "normalBrewing": 1
     },
@@ -936,7 +940,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
-      "imageUrl": "",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-qzq8dm5/images/stencil/1280x1280/products/22117/318588/C1082_1__60355.1624501230.jpg?c=2",
       "commentary": "Yin Feng (Silver Peak) tea originated in the high mountains of China's eastern provinces, primarily Anhui and Jiangxi, during the late Ming to early Qing transition period (mid-17th century). The name evokes both the silver-tipped appearance of the buds and their growth at high elevations, often shrouded in clouds like mountain peaks. Traditional production requires selective picking from tea gardens situated above 800 meters, where cooler temperatures and greater diurnal temperature variation create slower growth and more concentrated flavor compounds. The distinctive processing technique preserves the pointed shape of the buds through minimal rolling, with special care taken to maintain the silvery down that covers them. Historical records indicate it was particularly prized by scholars and officials during the Qing Dynasty, often presented as gifts during important meetings. The tea nearly disappeared during the Cultural Revolution, when many mountain tea gardens were abandoned or replanted with other crops, but production was revitalized in the 1990s as part of China's broader tea renaissance. Today, authentic Yin Feng remains a small-batch artisanal product, produced primarily in traditional tea-growing regions using cultivars specifically selected for their high-altitude adaptability and distinctive flavor profiles.",
       "normalBrewing": 1
     },
@@ -953,7 +957,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
-      "imageUrl": "",
+      "imageUrl": "https://www.caj.cz/foto/velke/8847-china-anhui-yue-xi-cui-lan-(green-orchid)-imperial-green-tea.jpg",
       "commentary": "Lan Hua (Orchid) tea emerged during the Song Dynasty (960-1279) when tea connoisseurs began cultivating tea varieties with naturally floral aromas reminiscent of orchids—a flower deeply significant in Chinese culture as a symbol of elegance, nobility, and refinement. Unlike scented teas where fragrance is added during processing, Lan Hua's orchid notes come entirely from the tea plant itself. Traditional production centers in the mountainous regions of Fujian and Guangxi provinces, where wild orchids grow alongside tea bushes, creating a unique terroir. Over centuries, farmers selected and propagated tea plants with the strongest orchid-like aromas, gradually developing distinctive cultivars. The processing technique emphasizes preserving these natural aromas through careful temperature control during firing. Historical texts from the Song and Ming periods frequently mention this tea in connection with poetry gatherings and scholarly retreats, where its refined aroma was considered conducive to artistic inspiration. During the Qing Dynasty (1644-1912), it became associated with the literati class, who often paired tea appreciation with orchid cultivation as complementary aesthetic pursuits. Today, authentic Lan Hua remains primarily produced in small quantities by traditional methods, with production techniques closely guarded by families who have specialized in this style for generations.",
       "normalBrewing": 1
     },
@@ -970,7 +974,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
       "typesOfWater": "Soft spring water low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
-      "imageUrl": "",
+      "imageUrl": "https://cdn11.bigcommerce.com/s-htknf/images/stencil/500x659/products/978/2603/G-BT-2_Buddhist__20082.1736198903.jpg?c=2",
       "commentary": "Fo Cha (Buddha Tea) has roots stretching back to the Tang Dynasty (618-907) when Buddhism flourished throughout China and tea became an integral part of monastic life. The connection between tea and Buddhism was formalized when the monk Eisai wrote the first Japanese tea treatise in 1214, declaring that Tea and Zen are one flavor. Buddha Tea traditionally refers to teas cultivated in gardens maintained by Buddhist temples and monasteries, particularly those on China's sacred Buddhist mountains—Emei, Putuo, Wutai, and Jiuhua. These mountain temples, often situated at ideal elevations for tea cultivation (800-1,500 meters), became centers of tea innovation and preservation. Monks developed distinctive processing methods, often emphasizing the tea's natural character with minimal manipulation, reflecting Buddhist principles of simplicity and awareness of nature. The tea was used both for meditation practice—helping monks remain alert during long sessions—and as a source of temple income through trade. Historical records show that by the Song Dynasty (960-1279), several major temples had become famous for their distinctive teas, which were sought after by both officials and literati. Today, authentic temple teas remain in production at many historical Buddhist sites, with some monastery gardens containing tea bushes dating back several centuries.",
       "normalBrewing": 1
     },
@@ -987,25 +991,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
       "typesOfWater": "Soft spring water very low mineral content",
       "westernSteeping": "2g per 240ml, 1-2 minutes, 75-80°C",
-      "imageUrl": "",
+      "imageUrl": "https://d27pcll2dx97vv.cloudfront.net/pub/media/catalog/product/cache/926507dc7f93631a094422215b778fe0/o/r/organic_chun_ya_green_tea_2.jpg",
       "commentary": "Chun Ya (Spring Buds) tea represents one of China's most ancient tea traditions, with records of early spring harvest teas dating back to the Tang Dynasty (618-907). The name celebrates the first growth of the tea season, when plants awaken from winter dormancy to produce their most tender and flavorful buds. Historically, these first spring teas were so prized that specific dates for harvesting were established in the imperial calendar, often coinciding with seasonal festivals like the Spring Equinox or Qingming Festival (early April). Traditional harvest practices involved careful timing based on both lunar calendar dates and natural indicators like the blooming of certain flowers or emergence of specific insects. The finest Chun Ya comes from gardens at higher elevations (above 700 meters), where cooler temperatures delay budding until the optimal flavor compounds have developed. Processing techniques emphasize preserving the buds' natural sweetness through gentle handling and precise temperature control during firing. Throughout Chinese history, offering the season's first spring buds was considered an auspicious gift, symbolizing renewal and good fortune for the coming year. Today, premium Chun Ya remains highly seasonal, available only during a brief window in early spring, with production spanning several tea-growing provinces including Zhejiang, Anhui, and Jiangsu.",
-      "normalBrewing": 1
-    },
-    {
-      "category": "Green Tea",
-      "type": "Mei Cha (梅茶)",
-      "englishType": "Plum Tea",
-      "description": "Tea with natural plum-like notes in the flavor profile",
-      "flavorProfile": "Fruity, slight plum notes with a sweet finish",
-      "potentialInfusions": "4-6",
-      "region": "China",
-      "leafRatio": "1/20",
-      "waterTemperature": "80°C (176°F)",
-      "gongFuSteepingTimes": "5s 10s 15s 20s 30s +10s each additional steep",
-      "typesOfWater": "Soft spring water low mineral content",
-      "westernSteeping": "2g per 240ml, 1-2 minutes, 80°C",
-      "imageUrl": "",
-      "commentary": "Mei Cha (Plum Tea) originated during the Song Dynasty (960-1279) when tea cultivation expanded in regions where wild plum trees grow alongside tea bushes. The name references the natural plum-like notes that develop in teas grown in this companion environment, not from actual plum flavoring. Traditional production centers in the Yangtze River Delta region, particularly in parts of Zhejiang and Jiangsu provinces where plum orchards have been cultivated for centuries. Historical records from the Southern Song period (1127-1279) document imperial tribute teas with distinctive fruity characters that likely represented early versions of this style. The distinctive fruity notes develop through a combination of terroir—the soil composition influenced by nearby plum trees—and specialized processing that emphasizes oxidative reactions that enhance fruit-like aromas. During the Ming Dynasty (1368-1644), the tea became associated with the scholarly class who appreciated its connection to plum blossoms—a symbol of perseverance and noble character in Chinese culture. Poetry from this period often paired tea appreciation with plum blossom viewing as complementary aesthetic experiences. Today, authentic Mei Cha remains produced in limited quantities in traditional growing regions, primarily using cultivars specifically selected for their natural fruit-forward character.",
       "normalBrewing": 1
     },
     {
@@ -1021,8 +1008,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-1.5 minutes, 70-75°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Chakan_aracha_kesencha_yabukita_2009.jpg",
+      "commentary": "Aracha (荒茶), also known as unrefined or crude tea, is a type of green tea produced in Japan. Unlike most other teas, aracha green tea is produced using the entire leaf of the tea plant, including the leaf blade, leaf stem, broken particles of the leaf, and the fine leaf hair. This often gives the tea a deep green colour and a bold taste though variations are greatly affected by the cultivation and production processes.",
       "normalBrewing": 1
     },
     {
@@ -1038,8 +1025,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-2 minutes, 80°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Green_tea_Bancha.jpg",
+      "commentary": "Bancha (番茶) is a type of Japanese green tea. It is harvested from the second flush of sencha between summer and autumn;[1] the first flush is harvested for shincha. It can be found in a number of forms such as roasted, unroasted, smoked, matured or fermented for three years and even post-fermented. For example, goishicha. ",
       "normalBrewing": 1
     },
     {
@@ -1055,8 +1042,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft to medium mineral water",
       "westernSteeping": "2.5g per 240ml, 1-2 minutes, 85-90°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Houjicha.jpg/1280px-Houjicha.jpg",
+      "commentary": "Hōjicha (ほうじ茶, 焙じ茶, lit.'roasted tea') is a Japanese green tea. It is distinctive from other Japanese green teas because it is roasted in a porcelain pot over charcoal. It is roasted at 150 °C (302 °F) to prevent oxidation and produce a light golden colour, as opposed to other Japanese teas which are steamed. In general, the base of a hōjicha consists of leaves from the second harvest or after.",
       "normalBrewing": 1
     },
     {
@@ -1072,8 +1059,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-2 minutes, 70-75°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Kukicha.jpg/1920px-Kukicha.jpg",
+      "commentary": "Kukicha (茎茶), or twig tea, also known as bōcha (棒茶), is a Japanese tea blend made of stems, stalks, and twigs of the tea plant. It is available as a green tea or in more oxidised processing. Kukicha has a unique flavour and aroma among teas, due to it being composed of parts of the plant that are excluded from most other teas. Regular kukicha material comes from production of sencha or matcha. When coming from gyokuro's production, it takes the name karigane (雁ヶ音 / かりがね) or shiraore (白折 / しらおれ). ",
       "normalBrewing": 1
     },
     {
@@ -1089,8 +1076,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-2 minutes, 80-85°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Genmaicha.JPG",
+      "commentary": "Genmaicha (玄米茶, 'brown rice tea') is a Japanese brown rice green tea consisting of green tea mixed with roasted popped brown rice. It is sometimes referred to colloquially as popcorn tea because a few grains of the rice pop during the roasting process and resemble popcorn, or as people's tea, as the rice served as a filler and reduced the price of the tea, making it historically more available for poorer Japanese. Today all segments of society drink genmaicha.[2] It was also used by people fasting for religious purposes or who found themselves to be between meals for long periods of time.",
       "normalBrewing": 1
     },
     {
@@ -1106,8 +1093,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 15s 25s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2g per 240ml, 30-45 seconds, 70-75°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Konacha.jpg",
+      "commentary": "Konacha (粉茶, powder tea) is a type of green tea, composed of the dust, tea buds and small leaves that are left behind after processing Gyokuro or Sencha. When made from Gyokuro it is also marketed as Gyokurokonacha (玉露粉茶). Konacha is cheaper than Sencha and Matcha and is often served at sushi restaurants as palate-refresher that stands up to fish flavours under the name of agari. Konacha has a strong flavor and is therefore good for use in cooking.",
       "normalBrewing": 1
     },
     {
@@ -1123,8 +1110,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-2 minutes, 80°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kamairicha.jpg/1920px-Kamairicha.jpg",
+      "commentary": "Kamairicha (釜炒り茶) is a Japanese green tea produced by pan-roasting or pan-firing tea leaves during the early stages of production. It is most commonly produced in the western region of Japan. Kamairicha has a mildly roasted flavour with more sweet and fresh notes than bitter ones. It does not undergo the usual steam treatments of Japanese tea and does not have the characteristic astringent taste of most Japanese tea. After a short withering, they are fired in hot iron pans of up to 300°C with repeated agitation to prevent charring. The various rolling techniques used produce teas of different leaf form. It is made of leaves that are shaped like commas or magatama. ",
       "normalBrewing": 1
     },
     {
@@ -1140,8 +1127,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2.5g per 240ml, 1-1.5 minutes, 70-75°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Tamaryokucha.jpg/1920px-Tamaryokucha.jpg",
+      "commentary": "Le Tamaryokucha (玉緑茶) est un thé vert japonais produit dans la région de Kyushu. Thé vert, dont la feuille, au lieu d'être pliée en aiguille comme pour le Sencha, est torsadée, ce qui lui donne davantage de couleur (vert foncé), un signe de grande qualité pour ce type de thé. Ce thé est plus doux que la plupart des thés verts japonais : liqueur soyeuse et subtile, saveur umami. Sa teneur en caféine est moyenne.",
       "normalBrewing": 1
     },
     {
@@ -1157,8 +1144,8 @@ const teaDatabase = {
       "gongFuSteepingTimes": "30s 20s 30s 45s",
       "typesOfWater": "Soft water low mineral content",
       "westernSteeping": "2g per 240ml, 1 minute, 70°C",
-      "imageUrl": "",
-      "commentary": "Japanese regional green teas evolved from processing innovations that began in the 17th-18th centuries. Each represents Japanese ingenuity in utilizing different parts of the tea plant or adapting processing to create distinctive styles. Bancha, made from mature leaves harvested after sencha, emerged as a practical everyday tea for farming communities. Hojicha was developed in 1920s Kyoto when tea merchants began roasting bancha over charcoal to create a low-caffeine option and to utilize unsold inventory. Kukicha (twig tea) originated as a way to use the stems separated during sencha processing, reducing waste and creating a naturally sweet, low-caffeine alternative. Genmaicha, combining green tea with toasted rice, has folk origins in the practice of mixing tea with rice to make expensive tea go further among poorer classes. These teas reflect the Japanese cultural values of resourcefulness and reduction of waste. Initially considered lower-grade teas, they gained appreciation during the late 20th century for their distinctive flavors and accessible price points. Today, they're enjoyed worldwide, representing the full spectrum of Japanese tea craftsmanship beyond premium grades like gyokuro and matcha.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/06/Me_cha.jpg",
+      "commentary": "Mecha (芽茶) is a type of green tea. The name of mecha derives from the early leaf buds needed to make this special green tea. Mecha is harvested in spring and made as rolled leaf teas that are graded somewhere between Gyokuro and Sencha in quality. Mecha is made from a collection of leaf buds and tips of the early crops.",
       "normalBrewing": 1
     },
     {
@@ -1174,7 +1161,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water low to medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 90°C",
-      "imageUrl": "",
+      "imageUrl": "https://jlteaco.com/cdn/shop/products/DSC_2285_1_a1eacbe3-405d-42ad-8f14-b6e1bfc394f2_940x.jpg?v=1714117072",
       "commentary": "Taiwanese high mountain oolongs emerged in the 1980s as tea cultivation expanded to higher elevations above 1000 meters. The pioneering tea farmer Wu Zhenduo first planted tea at these altitudes in the 1960s, but commercial production only took off two decades later. The cool climate, frequent fog, and dramatic temperature variations of these high mountains create teas with remarkable complexity and sweetness. The most famous production regions include Alishan, Li Shan, Shan Lin Xi, and Yu Shan, each imparting distinctive characteristics to their teas. High mountain oolongs typically undergo light oxidation (15-25%) and minimal roasting to preserve their delicate floral notes. The development of these teas coincided with Taiwan's economic boom and growing gourmet food culture. They rapidly gained prestige both domestically and internationally, commanding premium prices that helped transform tea from an agricultural commodity into a luxury product. Today, climate change and agricultural intensification pose challenges to these delicate mountain ecosystems, raising concerns about the long-term sustainability of production.",
       "normalBrewing": 1
     },
@@ -1191,7 +1178,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 90-95°C",
-      "imageUrl": "",
+      "imageUrl": "https://mudandleaves.com/cdn/shop/products/s714233318180191521_p566_i68_w2560.jpg?v=1615505864",
       "commentary": "Medium-roasted high mountain oolongs emerged in the 1990s as Taiwanese tea masters sought to create more complex profiles by applying traditional roasting techniques to the newer high mountain tea styles. This approach represents a bridge between the modern green, floral high mountain oolongs that gained popularity in the 1980s and the more traditional, heavily roasted styles of earlier generations. The careful roasting process transforms the tea's natural floral qualities, adding layers of caramel, fruity, and nutty notes while preserving the tea's mountain character. Traditional roasting uses charcoal from the native longan fruit tree, which imparts subtle honey notes to complement the tea's natural sweetness. The roasting process is highly technical, often requiring multiple sessions at progressively higher temperatures, with rest periods between to allow the leaves to stabilize. Master roasters guard their techniques closely, with skills passed down through family lineages or master-apprentice relationships. This style gained appreciation among connoisseurs who found purely floral high mountain teas one-dimensional while considering traditional heavy roasts too intense. Today, medium-roasted high mountain oolongs represent a premium category in Taiwan's tea market, with the finest examples coming from established tea gardens in renowned growing regions like Alishan, Li Shan, and Shan Lin Xi.",
       "normalBrewing": 1
     },
@@ -1208,7 +1195,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 95-100°C",
-      "imageUrl": "",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuVYECPelj9OWgB75Ls3GS-yWmA-LzoyXLKQ&s",
       "commentary": "Heavily roasted high mountain oolongs represent a revival of traditional Taiwanese tea craftsmanship applied to premium high-elevation tea leaves. This style emerged in the early 2000s as part of a movement to reconnect with Taiwan's tea heritage, after decades of market preference for greener, less processed oolongs. The intensive roasting process involves multiple sessions over charcoal at carefully controlled temperatures, sometimes continuing for several days or even weeks, with rest periods between roastings to allow the leaves to stabilize. This transforms the tea's character completely, replacing floral notes with deep, rich flavors reminiscent of dark chocolate, roasted nuts, and dried fruits. Master roasters are highly respected artisans who can enhance the tea's inherent qualities through careful firing without introducing burnt flavors. The best examples use premium high mountain tea as their base material, creating a fascinating contrast between the refined character of high mountain terroir and the deep complexity introduced through traditional roasting techniques. This style has gained particular appreciation among collectors, as the heavily roasted leaves can continue developing interesting flavors through aging, similar to traditionally processed Wuyi rock oolongs from mainland China.",
       "normalBrewing": 1
     },
@@ -1225,7 +1212,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90-95°C",
-      "imageUrl": "",
+      "imageUrl": "https://tealao.com/en/resource/image/tea/oolong/taiwan/dong-ding/chuan-tong/dong-ding-taiwan-oolong.jpg",
       "commentary": "Traditional Dong Ding oolong represents one of Taiwan's most historically significant teas, with origins dating to 1855 when tea farmer Lin Feng Chi brought 36 tea plant cuttings from Fujian's Wuyi Mountains and planted them on Dong Ding (Frozen Peak) Mountain in Lugu, Nantou County. This established Taiwan's first oolong tea garden and laid the foundation for the island's renowned tea industry. The term 'traditional' refers specifically to processing methods that involve medium oxidation (25-30%) followed by slow charcoal roasting, creating a balance between floral and fruity notes with roasted, honey-like depth. Throughout the 20th century, these traditional techniques were passed down through family lineages, with each generation of tea masters refining the craft. During the 1970s, as export markets expanded, many producers began shifting toward greener, less oxidized styles with minimal roasting that appealed to international tastes. By the 1990s, traditionally processed Dong Ding had become less common, prompting a preservation movement among tea masters concerned about losing cultural heritage. The revitalization of traditional processing helped establish Taiwan's premium tea market, with traditionally crafted Dong Ding commanding higher prices than its greener counterparts. Annual competitions in Lugu Township continue setting quality standards, with traditionally processed teas often winning top honors. The finest examples still use the original Qingxin cultivar from those first 36 plants, though newer cultivars have been introduced to increase disease resistance.",
       "normalBrewing": 1
     },
@@ -1234,7 +1221,7 @@ const teaDatabase = {
       "type": "Chen Nian Dong Ding (陳年凍頂)",
       "englishType": "Aged Frozen Summit",
       "description": "Dong Ding oolong that has been aged for several years to develop complex flavors",
-      "flavorProfile": "Dried fruits, wood, spices with caramel sweetness and medicinal notes",
+      "flavorProfile": "Dried fruits, wood, spices with caramel sweetness",
       "potentialInfusions": "8-12",
       "region": "Dong Ding, Taiwan",
       "leafRatio": "1/15",
@@ -1242,7 +1229,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3-4 minutes, 95-100°C",
-      "imageUrl": "",
+      "imageUrl": "https://tea-side.com/image/cache/catalog/Oolongs/Dong-Ding-well-roasted-2016/dong-ding-oolong-tea-roasted-2016-906x700.jpg",
       "commentary": "The practice of aging Dong Ding oolong tea developed organically in Taiwan during the mid-20th century, when tea merchants and farmers discovered that well-roasted teas stored properly could develop remarkable complexity over time. While pu'er has a more widely known aging tradition, aged oolongs represent a distinct tradition with their own unique characteristics. Proper aging typically requires initial heavy roasting to stabilize the tea, followed by storage in a climate with moderate humidity but good air circulation. Over years of aging, the roasted character softens while new dimensions of flavor emerge—medicinal herbs, dried fruits, and unique spice notes not present in the original tea. The most prized aged Dong Ding comes from the traditional production area around Lugu in Nantou County, particularly teas made from the original Qingxin cultivar brought from China in the 19th century. During the 1990s and 2000s, well-aged Dong Ding from the 1970s and 1980s began commanding premium prices as connoisseurs recognized their unique qualities. Today, aged Dong Ding represents one of Taiwan's most distinctive tea styles, with established collectors specifically aging teas for future enjoyment, creating a market similar to fine wine collecting.",
       "normalBrewing": 1
     },
@@ -1259,7 +1246,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water low to medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 85-90°C",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Jin_Xuan_oolong_tea.jpg/1920px-Jin_Xuan_oolong_tea.jpg",
       "commentary": "Jin Xuan oolong was developed in the 1980s by the Taiwan Tea Research and Extension Station (TRES) as cultivar #12. Unlike traditional oolongs that derive from centuries-old cultivars, Jin Xuan was scientifically bred for specific characteristics, including natural milk-like notes and adaptability to various growing conditions. The cultivar was officially released to farmers in 1981 and quickly gained popularity due to its naturally creamy flavor profile and higher yield compared to traditional cultivars. The name Jin Xuan (Golden Daylily) references the golden edge that can appear on the leaves when properly processed. Though originally developed for Taiwan, the cultivar has now spread to Thailand, Vietnam, and mainland China. Unscrupulous vendors sometimes enhance lower quality Jin Xuan with artificial milk flavoring, though authentic versions develop their creamy notes naturally through proper cultivation and processing. Today, Jin Xuan represents the successful modernization of Taiwanese tea breeding programs and has become one of the most recognizable Taiwanese oolong styles worldwide.",
       "normalBrewing": 1
     },
@@ -1276,7 +1263,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s",
       "typesOfWater": "Spring water low minerality",
       "westernSteeping": "3g per 240ml, 2 minutes, 85°C",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Spring_pouchong_tea_leaves_on_plate.jpg/2560px-Spring_pouchong_tea_leaves_on_plate.jpg",
       "commentary": "Bao Zhong (wrapped kind) tea originated in Fujian but found its true home in northern Taiwan, particularly Pinglin and Nangang, during the 19th century. It's named for its traditional packaging method—being wrapped in paper packages. With oxidation levels of only 8-15%, it bridges the gap between green tea and traditional oolong. The tea gained prominence in the late Qing Dynasty period (late 19th century) when it was exported to Southeast Asia and became especially popular among overseas Chinese communities. Traditional Bao Zhong processing uses relatively gentle manipulation, preserving the leaves' natural appearance rather than the tight rolling of other oolongs. The authentic version uses the Qingxin Damou cultivar grown at elevations of 400-600 meters. While less famous internationally than other Taiwanese oolongs, Bao Zhong played a crucial role in Taiwan's tea history, and the Pinglin area now houses a museum dedicated to its production. In recent decades, farmers have developed competitively selected, highly fragrant versions that have won accolades in Taiwan's prestigious tea competitions.",
       "normalBrewing": 1
     },
@@ -1293,7 +1280,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90°C",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dun-fan-mey-zhen-teashopby.jpg",
       "commentary": "Oriental Beauty has a unique origin story dating to the 1930s, when Taiwanese farmers discovered that tea plants bitten by small green leafhoppers (Jacobiasca formosana) produced unusually sweet and fragrant tea. Rather than fighting the pest, farmers learned to cultivate the relationship, allowing controlled leafhopper damage that triggers the plant to produce defensive compounds that transform into honey and fruit notes during processing. The tea was allegedly named by Queen Elizabeth II in the 1960s (though this story is disputed), and was previously known as Peng Feng Cha (Braggart's Tea) because farmers demanded unusually high prices for it. Production requires specific conditions: summer harvest, substantial leafhopper presence, higher oxidation (60-70%), and minimal roasting. The best examples come from elevations of 300-800 meters in Hsinchu and Miaoli counties. Distinctive processing includes longer withering periods that develop its unique fruity character. Today, it remains one of Taiwan's most distinctive oolongs and has inspired similar bug-bitten teas like Gui Fei.",
       "normalBrewing": 1
     },
@@ -1310,7 +1297,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90°C",
-      "imageUrl": "",
+      "imageUrl": "https://tea-side.com/image/cache/catalog/Oolongs/Gui-Fei-Dark-2024/2024-dark-gui-fei-oolong-906x700.jpg",
       "commentary": "Gui Fei oolong was developed in the early 2000s in Taiwan, born from necessity after a massive earthquake in 1999 and subsequent typhoons led to increased leafhopper insect activity in tea gardens. Tea farmers, inspired by the bug-bitten Oriental Beauty style, applied these principles to different cultivars and processing techniques. The name 'Concubine' (referring to Imperial Yang Guifei, one of China's legendary beauties) was chosen to indicate its relation to Oriental Beauty while signifying its distinctive character. Unlike Oriental Beauty, which undergoes higher oxidation, Gui Fei typically receives moderate oxidation (30-40%) and light to medium roasting, creating a different flavor profile while maintaining the honey notes triggered by leafhopper damage. The tea requires specific growing conditions—summer harvests with sufficient leafhopper presence but not excessive damage. Production originally centered in central Taiwan's Nantou County but has expanded to other regions. Initially developed for the domestic Taiwanese market, Gui Fei gained international recognition in the 2010s as specialty tea importers discovered its unique character. Today, it represents an innovative category that bridges traditional insect-enhanced processing with modern Taiwanese oolong craftsmanship.",
       "normalBrewing": 1
     },
@@ -1327,7 +1314,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s +10s each additional steep",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 85-90°C",
-      "imageUrl": "",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/T%C3%A9_Tieguanyin.jpg/1280px-T%C3%A9_Tieguanyin.jpg",
       "commentary": "Tie Guan Yin's origin dates to the early 19th century in Anxi County, Fujian Province. According to legend, a poor farmer named Wei discovered a neglected tea bush near the Guanyin temple after dreaming of the goddess of mercy. He cultivated it, producing a remarkable tea that brought him prosperity. The lightly oxidized style emerged in the 1970s-1990s when traditional production methods shifted toward greener profiles with less roasting to meet changing market preferences. Authentic Tie Guan Yin undergoes an elaborate processing involving withering, bruising, oxidation, fixing, rolling, and drying—a multi-day process requiring tremendous skill. The tea takes its name from the Iron Goddess of Mercy (Guanyin), a bodhisattva in Chinese Buddhism. The genuine article comes from specific villages in Anxi County, with Xiping, Gande, and Longjuan being the most prestigious. Each autumn, the region hosts the Anxi Tie Guan Yin Tea Culture Festival celebrating this culturally significant tea.",
       "normalBrewing": 1
     },
@@ -1344,7 +1331,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s +15s each additional steep",
       "typesOfWater": "Spring water medium to high minerality",
       "westernSteeping": "3g per 240ml, 3 minutes, 90-95°C",
-      "imageUrl": "",
+      "imageUrl": "https://goodtea.s27.cdn-upgates.com/_cache/5/4/548329d20d10115886c1baf55e06d141-4865.jpg",
       "commentary": "Red Oolong emerged in the late 1990s as Taiwanese tea researchers sought to develop novel styles that would differentiate Taiwan's tea industry in increasingly competitive global markets. This innovative category bridged traditional oolong and black tea processing techniques, creating a hybrid style with characteristics of both. The tea undergoes higher oxidation (60-70%) than typical oolongs but less than full black teas, with minimal roasting to preserve its fruity character. The Taiwan Tea Research and Extension Station (TRES) played a central role in standardizing production methods, working with farmers to refine techniques that would consistently produce the desired style. Initial development focused on using the native Taiwanese wild tea cultivar crossed with Assamica varieties, though production has expanded to include other cultivars. The name reflects its reddish leaf appearance and liquor color, placing it in the spectrum between traditional dark oolongs and black teas. Red Oolong gained significant attention after winning awards in Taiwanese tea competitions in the early 2000s. Within a decade, it had established itself as a recognized category in Taiwan's tea market, demonstrating the ongoing innovation in Taiwanese tea craftsmanship as producers continue developing new styles to showcase the island's distinctive terroir.",
       "normalBrewing": 1
     },
@@ -1361,7 +1348,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "25s 20s 25s 30s 40s 50s",
       "typesOfWater": "Spring water low to medium minerality",
       "westernSteeping": "3g per 240ml, 2-3 minutes, 90°C",
-      "imageUrl": "",
+      "imageUrl": "https://goodtea.s27.cdn-upgates.com/_cache/a/4/a434fc0756551d27dd95a9c867c800bb-741.jpg",
       "commentary": "Osmanthus Oolong represents one of East Asia's most beloved scented teas, with traditions dating back to the Ming Dynasty (1368-1644) when osmanthus flowers were first used to impart their distinctive fragrance to tea. Unlike jasmine tea, which relies on repeated scenting, traditional osmanthus oolong undergoes a single, delicate scenting process. Fresh osmanthus blossoms, which bloom for only a brief period in autumn, are layered with finished oolong tea and left overnight, allowing the tea to absorb the flower's essence without overwhelming its natural character. The finest versions use high-quality oolong with minimal roasting as the base, typically from Taiwan or Fujian, with light or medium oxidation that complements the floral notes. The tradition holds particular cultural significance in Taiwan and southern China, where osmanthus trees are widely grown and their flowers used in both culinary and medicinal applications. The fragrance of osmanthus is culturally associated with prosperity and good fortune in Chinese tradition, making this tea popular during autumn festivals and celebrations. Modern production maintains traditional scenting methods, though commercial versions sometimes use osmanthus essence rather than natural flowers. Artisanal producers continue creating premium versions using only fresh osmanthus blossoms harvested at their fragrant peak, making high-quality osmanthus oolong a seasonal specialty.",
       "normalBrewing": 1
     },
@@ -1378,7 +1365,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "2.5g per 240ml, 3 minutes, 90-95°C",
-      "imageUrl": "",
+      "imageUrl": "https://www.zi-chun.com/wp-content/uploads/2016/10/red-jade-hong-yu-black-tea.jpg",
       "commentary": "Hong Yu (TRES #18), commonly known as Ruby Black, represents one of Taiwan's most successful tea breeding innovations of the late 20th century. It was created in the 1980s by the Taiwan Tea Research and Extension Station through crossing native Taiwanese wild tea plants with Burmese Assamica varieties, but only commercialized in the late 1990s after extensive development. The cultivar's uniqueness comes from this hybridization, which created an unprecedented flavor profile combining the robust character of Assamica with subtle mint, cinnamon, and wintergreen notes from Taiwan's indigenous tea plants. These distinctive natural flavors, particularly the menthol-like cooling sensation, set it apart from other black teas worldwide. Initial production centered around Sun Moon Lake in central Taiwan's Nantou County, where the breeding program was based. Early commercial releases gained immediate attention for their novel character, winning awards in Taiwanese tea competitions. By the 2010s, Ruby Black had become Taiwan's most internationally recognized black tea, helping revitalize Taiwan's black tea industry which had declined since its heyday in the Japanese colonial period. The tea's success demonstrates Taiwan's continuing innovation in tea cultivation, creating distinctive products that showcase the island's unique terroir and botanical heritage rather than simply imitating established styles from elsewhere.",
       "normalBrewing": 1
     },
@@ -1395,7 +1382,7 @@ const teaDatabase = {
       "gongFuSteepingTimes": "20s 20s 25s 30s 40s 50s",
       "typesOfWater": "Spring water medium minerality",
       "westernSteeping": "2.5g per 240ml, 3 minutes, 90-95°C",
-      "imageUrl": "",
+      "imageUrl": "https://www.sazentea.com/content/products/big/TWY119-1.jpg",
       "commentary": "Sun Moon Lake black tea has a complex history intertwining Japanese colonial influence, indigenous Taiwan botany, and modern craft revival. Commercial production began during Japanese occupation (1895-1945), when Japanese authorities established research stations to develop black tea as an export crop. The region's unique terroir—surrounded by mountains at 700-800 meters elevation with a humid, misty microclimate around Taiwan's largest lake—proved ideal for black tea cultivation. After initial success using imported Assam varieties, researchers discovered native wild tea plants growing in Taiwan's mountains and began creating hybridized cultivars that combined the robust character of Assamica with unique characteristics of indigenous Taiwanese tea. Production peaked during the colonial period but declined sharply after WWII as Taiwan's tea industry shifted focus to oolong production for domestic consumption. By the 1980s, only a handful of producers remained. The modern renaissance began in the late 1990s, spearheaded by both research institutions and private farmers who recognized the area's potential for premium black tea. Several distinctive cultivars now dominate production, including Hong Yu #18 (Ruby), Hong Yu #21 (Jade Rouge), and Hong Yun (Red Charm), each with unique characteristics derived from their wild tea heritage. Today, Sun Moon Lake black teas are recognized internationally for their distinctive profiles, helping establish Taiwan's reputation for crafting innovative, high-quality black teas with a character unlike those from any other region.",
       "normalBrewing": 1
     }

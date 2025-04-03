@@ -31,7 +31,7 @@
     --spacing-sm: 0.8rem;
     --spacing-md: 1rem;
     --spacing-lg: 1.5rem;
-    --spacing-xl: 2rem;
+    --spacing-xl: 1rem;
     --spacing-xxl: 3rem;
     
     /* Border Radius */
@@ -114,6 +114,17 @@
   }
   
   /* ======= TOP NAVIGATION ======= */
+
+  #kofi-button {
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+
+  #upper_logo {
+    max-width: 40px;
+    padding-right: 10px;
+    margin-bottom: 5px;
+  }
   .navbar {
     background-color: white;
     box-shadow: var(--shadow-sm);
@@ -1475,3 +1486,31 @@
     margin-top: 2px; /* Add a small offset */
   }
   
+  /* Styles for Tea Cultivars Display */
+.tea-cultivars {
+  font-size: 0.95rem;
+  margin: 0.5rem 0 1rem;
+  color: var(--text-color);
+  line-height: 1.5;
+  padding-left: var(--spacing-md);
+  border-left: 3px solid var(--accent-color);
+  background-color: rgba(81, 109, 128, 0.05);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+}
+
+.cultivars-label {
+  font-weight: 600;
+  color: var(--accent-color);
+  margin-right: 0.25rem;
+}
+
+/* Add a subtle animation when the cultivars information appears */
+@keyframes fadeInCultivars {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.tea-cultivars {
+  animation: fadeInCultivars 0.4s ease-out;
+}

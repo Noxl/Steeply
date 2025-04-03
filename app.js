@@ -666,6 +666,12 @@ function openTeaModal(tea) {
                 </div>
             </div>
         </div>
+        <!-- Tea Cultivars - NEW ADDITION -->
+                ${tea.cultivars ? `
+                <div class="tea-cultivars">
+                    <span class="cultivars-label">Known Cultivars:</span> ${tea.cultivars}
+                </div>
+                ` : ''}
     `;
     
     // Add commentary section if available

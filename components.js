@@ -26,7 +26,7 @@ function insertHeader() {
     const headerHTML = `
         <div class="navbar-container">
             <a href="index.html" class="logo">
-                <i class="fas fa-mug-hot"></i>
+                <img src="img/logo_steeply.png" alt="Steeply Logo" id="upper_logo">
                 <h1>Steeply</h1>
             </a>
             
@@ -43,6 +43,8 @@ function insertHeader() {
                 </li>
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class=="nav-item" id="kofi-button">
                 </li>
             </ul>
         </div>

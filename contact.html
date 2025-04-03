@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo_steeply.png" type="image/png">
     <title>Steeply</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,10 +13,9 @@
     <style>
         /* Additional styles specific to the contact page */
         .contact-container {
-            display: grid;
+            display: flexbox;
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
-            margin: 2rem 0 4rem;
         }
         
         .contact-form {
@@ -210,71 +210,13 @@
     <!-- Page Title Section -->
     <section class="page-title">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have questions about tea or brewing? We'd love to hear from you!</p>
+            <h2>Contact</h2>
+            <p>Have questions about tea steeping and brewing, or you have found mistakes in the website ? Feel free to contact me</p>
         </div>
     </section>
 
     <main class="container">
-        <div class="contact-container">
-            <div class="contact-form">
-                <h3>Send us a Message</h3>
-                <p>We're always happy to discuss tea, answer your questions, or hear your feedback about our guide.</p>
-                
-                <form id="contact-form" action="#" method="post">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" class="form-control" required>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" class="form-control" required></textarea>
-                    </div>
-                    
-                    <button type="submit" class="btn-submit">Send Message</button>
-                </form>
-            </div>
-            
-            <div class="contact-info">
-                <div class="info-card">
-                    <h4><i class="fas fa-map-marker-alt"></i> Visit Our Tea House</h4>
-                    <p>123 Tea Garden Lane<br>Steeping District<br>Teaville, TX 98765</p>
-                    <p><strong>Hours:</strong><br>Monday-Friday: 9am-6pm<br>Saturday: 10am-4pm<br>Sunday: Closed</p>
-                </div>
-                
-                <div class="info-card">
-                    <h4><i class="fas fa-envelope"></i> Email Us</h4>
-                    <p>General Inquiries: <a href="mailto:info@gongfucha.com">info@gongfucha.com</a></p>
-                    <p>Tea Recommendations: <a href="mailto:recommendations@gongfucha.com">recommendations@gongfucha.com</a></p>
-                </div>
-                
-                <div class="info-card">
-                    <h4><i class="fas fa-phone"></i> Call Us</h4>
-                    <p>Phone: (555) 123-4567</p>
-                    <p>Toll-free: 1-800-TEA-LEAF</p>
-                    
-                    <h4 style="margin-top: 1.5rem;"><i class="fas fa-share-alt"></i> Connect With Us</h4>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
+
         <div class="faq-section">
             <h3>Frequently Asked Questions</h3>
             
@@ -284,7 +226,7 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>The steeping times in our guide are general recommendations based on traditional practices and expert advice. However, tea brewing is a personal experience, and we encourage you to adjust times based on your preferences. Factors like water quality, leaf quality, and personal taste all affect the ideal steeping time.</p>
+                    <p>The informations in our database are found on the internet and may not be 100% accurate, feel free contact me if you have found incoherence or mistakes.</p>
                 </div>
             </div>
             
@@ -294,30 +236,33 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Absolutely! We welcome input from fellow tea enthusiasts. If you have a tea recommendation, brewing technique, or general feedback you'd like to share, please use our contact form or email us directly at recommendations@gongfucha.com. We regularly update our database based on user contributions.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    Do you offer tea tastings or workshops?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>Yes, we host monthly tea tastings and quarterly brewing workshops at our physical location. These events are perfect for both beginners and experienced tea drinkers looking to expand their knowledge. Check our social media or sign up for our newsletter to stay informed about upcoming events.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    How can I contribute to the Tea Steeping Guide?
-                    <i class="fas fa-chevron-down"></i>
-                </div>
-                <div class="faq-answer">
-                    <p>There are several ways to contribute! You can submit tea reviews, share brewing techniques, provide regional tea information, or even help with translations. We're always looking for passionate tea lovers to help make our guide more comprehensive. Contact us through the form on this page to discuss contribution opportunities.</p>
+                    <p>Absolutely! We welcome input from fellow tea enthusiasts. If you have a tea recommendation, brewing technique, or general feedback you'd like to share, please contact me.</p>
                 </div>
             </div>
         </div>
+
+        <div class="contact-container">
+            
+            <div class="contact-info">        
+                <div class="info-card">
+                    <h4><i class="fas fa-envelope"></i> Email Me</h4>
+                    <p>General Inquiries, suggestions about the website and tea recommendations: <a href="mailto:arthefact.pro@gmail.com">arthefact.pro@gmail.com</a></p>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="contact-container">
+            
+            <div class="contact-info">        
+                <div class="info-card">
+                    <h4><i class="fa-solid fa-quote-right"></i>About Me</h4>
+                    <p>I am a simple tea enthousiast who wanted to have a simple place as a guide for tea steeping and informations about teas in général.</p>
+                </div>
+                
+            </div>
+        </div>
+
     </main>
 
     <!-- Footer (will be inserted by components.js) -->
