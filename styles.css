@@ -1435,3 +1435,83 @@ footer {
     right: var(--spacing-xs);
   }
 }
+
+/* Add these styles to your styles.css file */
+
+/* Enhanced Mobile Responsiveness for Small Screens */
+@media (max-width: 480px) {
+  /* Improve container sizing for small screens */
+  .container {
+      width: 95%;
+      padding: 0 0.5rem;
+  }
+  
+  /* Optimize filter layout for very small screens */
+  .filters {
+      padding: 1rem 0.8rem;
+  }
+  
+  .filter-container {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  /* Force search row to stack on very small screens */
+  .search-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      width: 100%;
+  }
+  
+  /* Ensure search box and filter elements use full width */
+  #tea-search, 
+  .filter-group,
+  #search-button {
+      width: 100%;
+      max-width: 100%;
+      margin-right: 0;
+  }
+  
+  /* Make sure select elements are properly sized */
+  select {
+      width: 100%;
+      margin-right: 0;
+  }
+  
+  /* Keep search button full width on small screens */
+  #search-button {
+      margin-top: 0.5rem;
+      width: 100%;
+  }
+  
+  /* Adjust tea cards for smaller screens */
+  #tea-results {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+  }
+  
+  /* Optimize tea cards for mobile view */
+  .tea-card {
+      max-width: 100%;
+  }
+  
+  /* Adjust margins for breathing room */
+  .filter-section {
+      margin-bottom: 0.5rem;
+  }
+  
+  /* Optimize brewing methods section for small screens */
+  .card-brewing-methods {
+      flex-direction: column;
+      gap: 0.5rem;
+  }
+  
+  /* Ensure modal content is properly sized on small screens */
+  .modal-content {
+      padding: 1rem;
+      margin: 2% auto;
+      width: 95%;
+      max-height: 95vh;
+  }
+}

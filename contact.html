@@ -7,8 +7,8 @@
     <meta name="description" content="Steeply is your complete guide to tea steeping. Find the perfect brewing time, temperature, and technique for hundreds of tea.">
     <meta name="keywords" content="tea, steeping guide, brewing, tea temperature, tea time, white tea, green tea, oolong tea, black tea, gong fu, tea database">
     
-    <!-- Secutiry -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://storage.ko-fi.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self';">
+    <!-- Security -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://storage.ko-fi.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https://upload.wikimedia.org; connect-src 'self';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
@@ -257,31 +257,27 @@
     <section class="page-title">
         <div class="container">
             <h2>Contact</h2>
-            <p>Have questions about tea steeping and brewing, or you have found mistakes in the website ? Feel free to contact me</p>
+            <p>Have questions about tea steeping and brewing, or you have found mistakes in the website? Feel free to contact me</p>
         </div>
     </section>
 
     <main class="container">
 
         <div class="contact-container">
-            
             <div class="contact-info">        
                 <div class="info-card">
                     <h4><i class="fas fa-envelope"></i> Email Me</h4>
                     <p>General Inquiries, suggestions about the website and tea recommendations: <a href="mailto:arthefact.pro@gmail.com">arthefact.pro@gmail.com</a></p>
                 </div>
-                
             </div>
         </div>
 
         <div class="contact-container">
-            
             <div class="contact-info">        
                 <div class="info-card">
-                    <h4><i class="fa-solid fa-quote-right"></i>About Me</h4>
-                    <p>I am a simple tea enthousiast who wanted to have a simple place as a guide for tea steeping and informations about teas in général.</p>
+                    <h4><i class="fa-solid fa-quote-right"></i> About Me</h4>
+                    <p>I am a simple tea enthusiast who wanted to have a simple place as a guide for tea steeping and information about teas in general.</p>
                 </div>
-                
             </div>
         </div>
 
@@ -294,7 +290,7 @@
                     <i class="fas fa-chevron-down"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>The informations in our database are found on the internet and may not be 100% accurate, feel free contact me if you have found incoherence or mistakes.</p>
+                    <p>The information in our database is found on the internet and may not be 100% accurate. Feel free to contact me if you have found inconsistencies or mistakes.</p>
                 </div>
             </div>
             
@@ -329,15 +325,6 @@
                 question.addEventListener('click', () => {
                     item.classList.toggle('active');
                 });
-            });
-            
-            // Form submission (prevent default for demo)
-            const contactForm = document.getElementById('contact-form');
-            
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! This is a demo form, so no message was actually sent.');
-                contactForm.reset();
             });
         });
     </script>
